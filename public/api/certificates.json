@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Dev Certification for Android",
+    "category": "certif",
+    "image": "dca.webp",
+    "description": "This certification is provided by Google for Android developers. This certification is a proof that I have mastered the basics of Android development."
+  },
+  {
+    "title": "Dicoding Menjadi Android Experts",
+    "category": "certif",
+    "image": "cert-android-expert.png",
+    "description": "This certification is provided by Dicoding for Android developers. This certification is a proof that I have mastered the basics of Android development."
+  },
+  {
+    "title": "Dicoding Menjadi Flutter Developer Experts",
+    "category": "certif",
+    "image": "cert-flutter-expert.png",
+    "description": "This certification is provided by Dicoding for Flutter developers. This certification is a proof that I have mastered the basics of Flutter development."
+  },
+  {
+    "title": "Dicoding Android Fundamental",
+    "category": "certif",
+    "image": "cert-android-fundamental.png",
+    "description": "This certification is provided by Dicoding for Android developers. This certification is a proof that I have mastered the basics of Android development."
+  },
+  {
+    "title": "Dicoding Android Intermidiete",
+    "category": "certif",
+    "image": "cert-android-intermediate.png",
+    "description": "This certification is provided by Dicoding for Android developers. This certification is a proof that I have mastered the basics of Android development."
+  },
+  {
+    "title": "Dicoding Android Jetpack Compose",
+    "category": "certif",
+    "image": "cert-android-jetpack-compose.png",
+    "description": "This certification is provided by Dicoding for Android developers. This certification is a proof that I have mastered the basics of Android development."
+  },
+  {
+    "title": "Dicoding Android Pemula",
+    "category": "certif",
+    "image": "cert-android-pemula.png",
+    "description": "This certification is provided by Dicoding for Android developers. This certification is a proof that I have mastered the basics of Android development."
+  },
+  {
+    "title": "Award KMPIN",
+    "category": "awards",
+    "image": "award-kmipn.png",
+    "description": "This award is given to me for my contribution to the KMPIN organization. This award is a proof that I have contributed to the organization."
+  },
+  {
+    "title": "Award Mantee 2023",
+    "category": "awards",
+    "image": "award-mentee-2023.png",
+    "description": "This award is given to me for my contribution to the Mantee organization. This award is a proof that I have contributed to the organization."
+  },
+  {
+    "title": "Award Mentor 2024",
+    "category": "awards",
+    "image": "award-mentor-2024-1.png",
+    "description": "This award is given to me for my contribution to the Mentor organization. This award is a proof that I have contributed to the organization."
+  },
+  {
+    "title": "Award Polije",
+    "category": "awards",
+    "image": "award-polije-5-4-crop.png",
+    "description": "This award is given to me for my contribution to the Polije organization. This award is a proof that I have contributed to the organization."
+  }
+]

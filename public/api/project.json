@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "title": "Eiger Adventure",
+    "description": "Eiger Adventure is a premier mobile application designed to enhance the outdoor experience by providing a seamless shopping platform for adventure enthusiasts. The app offers a wide range of high-quality outdoor gear, including apparel and equipment tailored for activities such as camping, hiking, traveling, and riding.\n\nWith a user-friendly interface, Eiger Adventure enables customers to explore products effortlessly, shop based on their preferred activities, and stay connected with official Eiger stores. The app also provides exclusive benefits for members of the Eiger Adventure Club, including special promotions and free shipping across Indonesia.\n\nBy integrating modern e-commerce features with a passion for outdoor adventure, Eiger Adventure ensures that every journey is well-equipped and more enjoyable. $! With the remarkable success of the Eiger Adventure project, Eiger Indonesia has strengthened its partnership with RollingGlory, collaborating on various events and expanding its initiatives. This strategic collaboration has led to the development of new projects aimed at enhancing the outdoor experience, delivering innovative solutions, and reaching a broader audience. Through this partnership, both companies continue to push boundaries, ensuring that adventure enthusiasts receive high-quality products and services tailored to their needs. $!Building on this strong collaboration, Eiger Indonesia continues to trust RollingGlory as a key development partner, awarding five new projects to further elevate its digital and retail experiences. These projects aim to enhance user engagement, streamline operations, and introduce innovative features that align with Eiger's commitment to adventure and exploration. With this continued partnership, both companies are set to create cutting-edge solutions that redefine the outdoor industry and deliver exceptional value to their customers.$!One of these exciting new projects is Eiger Adventure Land, a groundbreaking initiative designed to bring the spirit of adventure to life. This project aims to create an immersive experience that blends technology with outdoor exploration, offering adventure enthusiasts a unique way to engage with the Eiger brand. Through this collaboration, RollingGlory is leveraging its expertise to develop innovative digital solutions that enhance user interaction, making Eiger Adventure Land a key milestone in Eiger Indonesia’s journey to inspire and connect with its community.$!",
+    "thumbnail": [
+      "eiger/cover.webp",
+      "eiger/apps_1.webp",
+      "eiger/apps_2.webp"
+    ],
+    "images": [
+      "eiger/cover.webp",
+      "eiger/eiger_pasific_media_conference_2024.webp",
+      "eiger/eiger-and-rgb.webp",
+      "eiger/eigeradventureland.webp"
+    ],
+    "captions": [
+      "Eiger Adventure Apps",
+      "Eiger Indonesia And Rolling Glory Collaboration",
+      "Jason Wuysang (Eiger's Marketing General Manager) and Brian Al Bahr (Rolling Glory's CEO) at Eiger Pasific Media Conference 2024",
+      "Eiger Adventure Land"
+    ],
+    "slug": "eiger",
+    "repository": "",
+    "website": [
+      {
+        "appstore": "https://apps.apple.com/id/app/eiger-adventure/id6460640350",
+        "googleplay": "https://play.google.com/store/apps/details?id=com.eiger.eigeradventureapp&pcampaignid=web_share"
+      }
+    ],
+    "category": "Mobile",
+    "tag": [
+      "Flutter",
+      "Android",
+      "iOS"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Exploria Host",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, eum. Voluptatibus voluptas incidunt quod facilis inventore. Tempore, dolores dignissimos? Sit!",
+    "thumbnail": [
+      "exploria_host/cover.webp",
+      "exploria_host/app_1.webp",
+      "exploria_host/app_2.webp"
+    ],
+    "images": [],
+    "captions": [],
+    "slug": "exploria-host",
+    "repository": "https://github.com",
+    "website": [
+      {
+        "appstore": "",
+        "googleplay": ""
+      }
+    ],
+    "category": "Mobile",
+    "tag": [
+      "Flutter",
+      "Android",
+      "iOS"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Imma",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, eum. Voluptatibus voluptas incidunt quod facilis inventore. Tempore, dolores dignissimos? Sit!",
+    "thumbnail": [
+      "imma/cover.webp",
+      "imma/app_1.webp",
+      "imma/app_2.webp"
+    ],
+    "images": [],
+    "captions": [],
+    "slug": "imma",
+    "repository": "https://github.com",
+    "website": [
+      {
+        "appstore": "",
+        "googleplay": ""
+      }
+    ],
+    "category": "Mobile",
+    "tag": [
+      "Flutter",
+      "Android",
+      "iOS"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Jelajahin",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, eum. Voluptatibus voluptas incidunt quod facilis inventore. Tempore, dolores dignissimos? Sit!",
+    "thumbnail": [
+      "jelajahin/cover.webp",
+      "jelajahin/app_1.webp",
+      "jelajahin/app_2.webp"
+    ],
+    "images": [],
+    "captions": [],
+    "slug": "jelajahin",
+    "repository": "https://github.com",
+    "website": [
+      {
+        "appstore": "https://appstore.com/",
+        "googleplay": "https://googleplay.com/"
+      }
+    ],
+    "category": "Mobile",
+    "tag": [
+      "Flutter",
+      "Android",
+      "iOS"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Peduly",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, eum. Voluptatibus voluptas incidunt quod facilis inventore. Tempore, dolores dignissimos? Sit!",
+    "thumbnail": [
+      "peduly/cover.webp",
+      "peduly/app_1.webp",
+      "peduly/app_2.webp"
+    ],
+    "images": [],
+    "captions": [],
+    "slug": "peduly",
+    "repository": "https://github.com",
+    "website": [
+      {
+        "appstore": "",
+        "googleplay": ""
+      }
+    ],
+    "category": "Mobile",
+    "tag": [
+      "Flutter",
+      "Android",
+      "iOS"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Pesat",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, eum. Voluptatibus voluptas incidunt quod facilis inventore. Tempore, dolores dignissimos? Sit!",
+    "thumbnail": [
+      "pesat/cover.webp",
+      "pesat/app_1.webp",
+      "pesat/app_2.webp"
+    ],
+    "images": [],
+    "captions": [],
+    "slug": "pesat",
+    "repository": "https://github.com",
+    "website": [
+      {
+        "appstore": "",
+        "googleplay": ""
+      }
+    ],
+    "category": "Mobile",
+    "tag": [
+      "Flutter",
+      "Android",
+      "iOS"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Snapandcook",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, eum. Voluptatibus voluptas incidunt quod facilis inventore. Tempore, dolores dignissimos? Sit!",
+    "thumbnail": [
+      "snapandcook/cover.webp",
+      "snapandcook/app_1.webp",
+      "snapandcook/app_2.webp"
+    ],
+    "images": [],
+    "captions": [],
+    "slug": "snapandcook",
+    "repository": "https://github.com",
+    "website": [
+      {
+        "appstore": "",
+        "googleplay": ""
+      }
+    ],
+    "category": "Mobile",
+    "tag": [
+      "Flutter",
+      "Android",
+      "iOS"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Sumbangin aja",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, eum. Voluptatibus voluptas incidunt quod facilis inventore. Tempore, dolores dignissimos? Sit!",
+    "thumbnail": [
+      "sumbanginaja/cover.webp",
+      "sumbanginaja/app_1.webp",
+      "sumbanginaja/app_2.webp"
+    ],
+    "images": [],
+    "captions": [],
+    "slug": "sumbangin-aja",
+    "repository": "https://github.com",
+    "website": [
+      {
+        "appstore": "",
+        "googleplay": ""
+      }
+    ],
+    "category": "Mobile",
+    "tag": [
+      "Flutter",
+      "Android",
+      "iOS"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Sumbangin aja",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, eum. Voluptatibus voluptas incidunt quod facilis inventore. Tempore, dolores dignissimos? Sit!",
+    "thumbnail": [
+      "sumbanginaja/cover.webp",
+      "sumbanginaja/app_1.webp",
+      "sumbanginaja/app_2.webp"
+    ],
+    "images": [],
+    "captions": [],
+    "slug": "sumbangin-aja",
+    "repository": "https://github.com",
+    "website": [
+      {
+        "appstore": "",
+        "googleplay": ""
+      }
+    ],
+    "category": "Backend",
+    "tag": [
+      "NestJs",
+      "Android",
+      "iOS"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Sumbangin aja",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, eum. Voluptatibus voluptas incidunt quod facilis inventore. Tempore, dolores dignissimos? Sit!",
+    "thumbnail": [
+      "sumbanginaja/cover.webp",
+      "sumbanginaja/app_1.webp",
+      "sumbanginaja/app_2.webp"
+    ],
+    "images": [],
+    "captions": [],
+    "slug": "sumbangin-aja",
+    "repository": "https://github.com",
+    "website": [
+      {
+        "appstore": "",
+        "googleplay": ""
+      }
+    ],
+    "category": "AI",
+    "tag": [
+      "NestJs",
+      "Android",
+      "iOS"
+    ]
+  }
+]
