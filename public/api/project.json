@@ -83,6 +83,55 @@
     {
         "id": 2,
         "title": "Exploria Host",
+        "overview": "lorem",
+        "techstack": {
+            "Flutter": ["Flutter"],
+            "Backend": ["Nestjs", "Firebase"],
+            "Database": ["PostgreSQL", "Firebase", "Firestore"],
+            "Other": [
+                "Tenserflow (for AI-powered recommendations)",
+                "Google Maps Api "
+            ]
+        },
+        "key_features": [
+            "Intuitive and user-friendly shopping experience",
+            "Personalized product recommendations using AI",
+            "Eiger Adventure Club membership perks (discounts & free shipping)",
+            "Store locator with Google Maps integration",
+            "Secure payments and order tracking"
+        ],
+        "challenges_solutions": [
+            "Performance Optimization: Reduced frame drops by implementing lazy loading for product images and optimizing API calls.",
+            "AI-Powered Recommendations: Integrated TensorFlow models to enhance product recommendations based on user behavior.",
+            "Scalability: Used NestJS and Firebase for a flexible and scalable backend architecture."
+        ],
+
+        "my_role": [
+            "Led the mobile development using Flutter, ensuring a smooth UI/UX experience.",
+            "Integrated AI-based product recommendations.",
+            "Collaborated with backend engineers to optimize API performance.",
+            "Ensured clean and maintainable code using best practices."
+        ],
+
+        "impact_metrics": [
+            {
+                "icon": "ic:baseline-trending-up",
+                "text": "100,000+ downloads on Google Play Store"
+            },
+            {
+                "icon": "ic:outline-star-rate",
+                "text": "4.8-star rating based on 5,000+ reviews"
+            },
+            {
+                "icon": "mdi:trophy",
+                "text": "Ranked Top 50 in the Shopping category"
+            }
+        ],
+        "future_plans": [
+            "Implement an augmented reality (AR) feature for virtual product try-ons",
+            "Improve AI recommendations using user engagement data",
+            "Expand the loyalty program with gamification features"
+        ],
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, eum. Voluptatibus voluptas incidunt quod facilis inventore. Tempore, dolores dignissimos? Sit!",
         "thumbnail": [
             "exploria_host/cover.webp",
@@ -105,6 +154,55 @@
     {
         "id": 3,
         "title": "Imma",
+        "overview": "lorem",
+        "techstack": {
+            "Flutter": ["Flutter"],
+            "Backend": ["Nestjs", "Firebase"],
+            "Database": ["PostgreSQL", "Firebase", "Firestore"],
+            "Other": [
+                "Tenserflow (for AI-powered recommendations)",
+                "Google Maps Api "
+            ]
+        },
+        "key_features": [
+            "Intuitive and user-friendly shopping experience",
+            "Personalized product recommendations using AI",
+            "Eiger Adventure Club membership perks (discounts & free shipping)",
+            "Store locator with Google Maps integration",
+            "Secure payments and order tracking"
+        ],
+        "challenges_solutions": [
+            "Performance Optimization: Reduced frame drops by implementing lazy loading for product images and optimizing API calls.",
+            "AI-Powered Recommendations: Integrated TensorFlow models to enhance product recommendations based on user behavior.",
+            "Scalability: Used NestJS and Firebase for a flexible and scalable backend architecture."
+        ],
+
+        "my_role": [
+            "Led the mobile development using Flutter, ensuring a smooth UI/UX experience.",
+            "Integrated AI-based product recommendations.",
+            "Collaborated with backend engineers to optimize API performance.",
+            "Ensured clean and maintainable code using best practices."
+        ],
+
+        "impact_metrics": [
+            {
+                "icon": "ic:baseline-trending-up",
+                "text": "100,000+ downloads on Google Play Store"
+            },
+            {
+                "icon": "ic:outline-star-rate",
+                "text": "4.8-star rating based on 5,000+ reviews"
+            },
+            {
+                "icon": "mdi:trophy",
+                "text": "Ranked Top 50 in the Shopping category"
+            }
+        ],
+        "future_plans": [
+            "Implement an augmented reality (AR) feature for virtual product try-ons",
+            "Improve AI recommendations using user engagement data",
+            "Expand the loyalty program with gamification features"
+        ],
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, eum. Voluptatibus voluptas incidunt quod facilis inventore. Tempore, dolores dignissimos? Sit!",
         "thumbnail": ["imma/cover.webp", "imma/app_1.webp", "imma/app_2.webp"],
         "images": [],
@@ -123,6 +221,55 @@
     {
         "id": 4,
         "title": "Jelajahin",
+        "overview": "lorem",
+        "techstack": {
+            "Flutter": ["Flutter"],
+            "Backend": ["Nestjs", "Firebase"],
+            "Database": ["PostgreSQL", "Firebase", "Firestore"],
+            "Other": [
+                "Tenserflow (for AI-powered recommendations)",
+                "Google Maps Api "
+            ]
+        },
+        "key_features": [
+            "Intuitive and user-friendly shopping experience",
+            "Personalized product recommendations using AI",
+            "Eiger Adventure Club membership perks (discounts & free shipping)",
+            "Store locator with Google Maps integration",
+            "Secure payments and order tracking"
+        ],
+        "challenges_solutions": [
+            "Performance Optimization: Reduced frame drops by implementing lazy loading for product images and optimizing API calls.",
+            "AI-Powered Recommendations: Integrated TensorFlow models to enhance product recommendations based on user behavior.",
+            "Scalability: Used NestJS and Firebase for a flexible and scalable backend architecture."
+        ],
+
+        "my_role": [
+            "Led the mobile development using Flutter, ensuring a smooth UI/UX experience.",
+            "Integrated AI-based product recommendations.",
+            "Collaborated with backend engineers to optimize API performance.",
+            "Ensured clean and maintainable code using best practices."
+        ],
+
+        "impact_metrics": [
+            {
+                "icon": "ic:baseline-trending-up",
+                "text": "100,000+ downloads on Google Play Store"
+            },
+            {
+                "icon": "ic:outline-star-rate",
+                "text": "4.8-star rating based on 5,000+ reviews"
+            },
+            {
+                "icon": "mdi:trophy",
+                "text": "Ranked Top 50 in the Shopping category"
+            }
+        ],
+        "future_plans": [
+            "Implement an augmented reality (AR) feature for virtual product try-ons",
+            "Improve AI recommendations using user engagement data",
+            "Expand the loyalty program with gamification features"
+        ],
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, eum. Voluptatibus voluptas incidunt quod facilis inventore. Tempore, dolores dignissimos? Sit!",
         "thumbnail": [
             "jelajahin/cover.webp",
@@ -145,6 +292,55 @@
     {
         "id": 5,
         "title": "Peduly",
+        "overview": "lorem",
+        "techstack": {
+            "Flutter": ["Flutter"],
+            "Backend": ["Nestjs", "Firebase"],
+            "Database": ["PostgreSQL", "Firebase", "Firestore"],
+            "Other": [
+                "Tenserflow (for AI-powered recommendations)",
+                "Google Maps Api "
+            ]
+        },
+        "key_features": [
+            "Intuitive and user-friendly shopping experience",
+            "Personalized product recommendations using AI",
+            "Eiger Adventure Club membership perks (discounts & free shipping)",
+            "Store locator with Google Maps integration",
+            "Secure payments and order tracking"
+        ],
+        "challenges_solutions": [
+            "Performance Optimization: Reduced frame drops by implementing lazy loading for product images and optimizing API calls.",
+            "AI-Powered Recommendations: Integrated TensorFlow models to enhance product recommendations based on user behavior.",
+            "Scalability: Used NestJS and Firebase for a flexible and scalable backend architecture."
+        ],
+
+        "my_role": [
+            "Led the mobile development using Flutter, ensuring a smooth UI/UX experience.",
+            "Integrated AI-based product recommendations.",
+            "Collaborated with backend engineers to optimize API performance.",
+            "Ensured clean and maintainable code using best practices."
+        ],
+
+        "impact_metrics": [
+            {
+                "icon": "ic:baseline-trending-up",
+                "text": "100,000+ downloads on Google Play Store"
+            },
+            {
+                "icon": "ic:outline-star-rate",
+                "text": "4.8-star rating based on 5,000+ reviews"
+            },
+            {
+                "icon": "mdi:trophy",
+                "text": "Ranked Top 50 in the Shopping category"
+            }
+        ],
+        "future_plans": [
+            "Implement an augmented reality (AR) feature for virtual product try-ons",
+            "Improve AI recommendations using user engagement data",
+            "Expand the loyalty program with gamification features"
+        ],
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, eum. Voluptatibus voluptas incidunt quod facilis inventore. Tempore, dolores dignissimos? Sit!",
         "thumbnail": [
             "peduly/cover.webp",
@@ -167,6 +363,55 @@
     {
         "id": 6,
         "title": "Pesat",
+        "overview": "lorem",
+        "techstack": {
+            "Flutter": ["Flutter"],
+            "Backend": ["Nestjs", "Firebase"],
+            "Database": ["PostgreSQL", "Firebase", "Firestore"],
+            "Other": [
+                "Tenserflow (for AI-powered recommendations)",
+                "Google Maps Api "
+            ]
+        },
+        "key_features": [
+            "Intuitive and user-friendly shopping experience",
+            "Personalized product recommendations using AI",
+            "Eiger Adventure Club membership perks (discounts & free shipping)",
+            "Store locator with Google Maps integration",
+            "Secure payments and order tracking"
+        ],
+        "challenges_solutions": [
+            "Performance Optimization: Reduced frame drops by implementing lazy loading for product images and optimizing API calls.",
+            "AI-Powered Recommendations: Integrated TensorFlow models to enhance product recommendations based on user behavior.",
+            "Scalability: Used NestJS and Firebase for a flexible and scalable backend architecture."
+        ],
+
+        "my_role": [
+            "Led the mobile development using Flutter, ensuring a smooth UI/UX experience.",
+            "Integrated AI-based product recommendations.",
+            "Collaborated with backend engineers to optimize API performance.",
+            "Ensured clean and maintainable code using best practices."
+        ],
+
+        "impact_metrics": [
+            {
+                "icon": "ic:baseline-trending-up",
+                "text": "100,000+ downloads on Google Play Store"
+            },
+            {
+                "icon": "ic:outline-star-rate",
+                "text": "4.8-star rating based on 5,000+ reviews"
+            },
+            {
+                "icon": "mdi:trophy",
+                "text": "Ranked Top 50 in the Shopping category"
+            }
+        ],
+        "future_plans": [
+            "Implement an augmented reality (AR) feature for virtual product try-ons",
+            "Improve AI recommendations using user engagement data",
+            "Expand the loyalty program with gamification features"
+        ],
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, eum. Voluptatibus voluptas incidunt quod facilis inventore. Tempore, dolores dignissimos? Sit!",
         "thumbnail": [
             "pesat/cover.webp",
@@ -211,6 +456,55 @@
     {
         "id": 8,
         "title": "Sumbangin aja",
+        "overview": "lorem",
+        "techstack": {
+            "Flutter": ["Flutter"],
+            "Backend": ["Nestjs", "Firebase"],
+            "Database": ["PostgreSQL", "Firebase", "Firestore"],
+            "Other": [
+                "Tenserflow (for AI-powered recommendations)",
+                "Google Maps Api "
+            ]
+        },
+        "key_features": [
+            "Intuitive and user-friendly shopping experience",
+            "Personalized product recommendations using AI",
+            "Eiger Adventure Club membership perks (discounts & free shipping)",
+            "Store locator with Google Maps integration",
+            "Secure payments and order tracking"
+        ],
+        "challenges_solutions": [
+            "Performance Optimization: Reduced frame drops by implementing lazy loading for product images and optimizing API calls.",
+            "AI-Powered Recommendations: Integrated TensorFlow models to enhance product recommendations based on user behavior.",
+            "Scalability: Used NestJS and Firebase for a flexible and scalable backend architecture."
+        ],
+
+        "my_role": [
+            "Led the mobile development using Flutter, ensuring a smooth UI/UX experience.",
+            "Integrated AI-based product recommendations.",
+            "Collaborated with backend engineers to optimize API performance.",
+            "Ensured clean and maintainable code using best practices."
+        ],
+
+        "impact_metrics": [
+            {
+                "icon": "ic:baseline-trending-up",
+                "text": "100,000+ downloads on Google Play Store"
+            },
+            {
+                "icon": "ic:outline-star-rate",
+                "text": "4.8-star rating based on 5,000+ reviews"
+            },
+            {
+                "icon": "mdi:trophy",
+                "text": "Ranked Top 50 in the Shopping category"
+            }
+        ],
+        "future_plans": [
+            "Implement an augmented reality (AR) feature for virtual product try-ons",
+            "Improve AI recommendations using user engagement data",
+            "Expand the loyalty program with gamification features"
+        ],
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, eum. Voluptatibus voluptas incidunt quod facilis inventore. Tempore, dolores dignissimos? Sit!",
         "thumbnail": [
             "sumbanginaja/cover.webp",
@@ -233,6 +527,55 @@
     {
         "id": 8,
         "title": "Sumbangin aja",
+        "overview": "lorem",
+        "techstack": {
+            "Flutter": ["Flutter"],
+            "Backend": ["Nestjs", "Firebase"],
+            "Database": ["PostgreSQL", "Firebase", "Firestore"],
+            "Other": [
+                "Tenserflow (for AI-powered recommendations)",
+                "Google Maps Api "
+            ]
+        },
+        "key_features": [
+            "Intuitive and user-friendly shopping experience",
+            "Personalized product recommendations using AI",
+            "Eiger Adventure Club membership perks (discounts & free shipping)",
+            "Store locator with Google Maps integration",
+            "Secure payments and order tracking"
+        ],
+        "challenges_solutions": [
+            "Performance Optimization: Reduced frame drops by implementing lazy loading for product images and optimizing API calls.",
+            "AI-Powered Recommendations: Integrated TensorFlow models to enhance product recommendations based on user behavior.",
+            "Scalability: Used NestJS and Firebase for a flexible and scalable backend architecture."
+        ],
+
+        "my_role": [
+            "Led the mobile development using Flutter, ensuring a smooth UI/UX experience.",
+            "Integrated AI-based product recommendations.",
+            "Collaborated with backend engineers to optimize API performance.",
+            "Ensured clean and maintainable code using best practices."
+        ],
+
+        "impact_metrics": [
+            {
+                "icon": "ic:baseline-trending-up",
+                "text": "100,000+ downloads on Google Play Store"
+            },
+            {
+                "icon": "ic:outline-star-rate",
+                "text": "4.8-star rating based on 5,000+ reviews"
+            },
+            {
+                "icon": "mdi:trophy",
+                "text": "Ranked Top 50 in the Shopping category"
+            }
+        ],
+        "future_plans": [
+            "Implement an augmented reality (AR) feature for virtual product try-ons",
+            "Improve AI recommendations using user engagement data",
+            "Expand the loyalty program with gamification features"
+        ],
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, eum. Voluptatibus voluptas incidunt quod facilis inventore. Tempore, dolores dignissimos? Sit!",
         "thumbnail": [
             "sumbanginaja/cover.webp",
@@ -255,6 +598,55 @@
     {
         "id": 8,
         "title": "Sumbangin aja",
+        "overview": "lorem",
+        "techstack": {
+            "Flutter": ["Flutter"],
+            "Backend": ["Nestjs", "Firebase"],
+            "Database": ["PostgreSQL", "Firebase", "Firestore"],
+            "Other": [
+                "Tenserflow (for AI-powered recommendations)",
+                "Google Maps Api "
+            ]
+        },
+        "key_features": [
+            "Intuitive and user-friendly shopping experience",
+            "Personalized product recommendations using AI",
+            "Eiger Adventure Club membership perks (discounts & free shipping)",
+            "Store locator with Google Maps integration",
+            "Secure payments and order tracking"
+        ],
+        "challenges_solutions": [
+            "Performance Optimization: Reduced frame drops by implementing lazy loading for product images and optimizing API calls.",
+            "AI-Powered Recommendations: Integrated TensorFlow models to enhance product recommendations based on user behavior.",
+            "Scalability: Used NestJS and Firebase for a flexible and scalable backend architecture."
+        ],
+
+        "my_role": [
+            "Led the mobile development using Flutter, ensuring a smooth UI/UX experience.",
+            "Integrated AI-based product recommendations.",
+            "Collaborated with backend engineers to optimize API performance.",
+            "Ensured clean and maintainable code using best practices."
+        ],
+
+        "impact_metrics": [
+            {
+                "icon": "ic:baseline-trending-up",
+                "text": "100,000+ downloads on Google Play Store"
+            },
+            {
+                "icon": "ic:outline-star-rate",
+                "text": "4.8-star rating based on 5,000+ reviews"
+            },
+            {
+                "icon": "mdi:trophy",
+                "text": "Ranked Top 50 in the Shopping category"
+            }
+        ],
+        "future_plans": [
+            "Implement an augmented reality (AR) feature for virtual product try-ons",
+            "Improve AI recommendations using user engagement data",
+            "Expand the loyalty program with gamification features"
+        ],
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, eum. Voluptatibus voluptas incidunt quod facilis inventore. Tempore, dolores dignissimos? Sit!",
         "thumbnail": [
             "sumbanginaja/cover.webp",
