@@ -4,38 +4,55 @@
         "title": "Eiger Adventure",
         "overview": "Eiger Adventure is a premier mobile application designed to enhance the outdoor experience by providing a seamless shopping platform for adventure enthusiasts. The app offers a wide range of high-quality outdoor gear, including apparel and equipment tailored for activities such as camping, hiking, traveling, and riding.\n\nWith a user-friendly interface, Eiger Adventure enables customers to explore products effortlessly, shop based on their preferred activities, and stay connected with official Eiger stores. The app also provides exclusive benefits for members of the Eiger Adventure Club, including special promotions and free shipping across Indonesia.\n\nBy integrating modern e-commerce features with a passion for outdoor adventure, Eiger Adventure ensures that every journey is well-equipped and more enjoyable.",
         "techstack": {
-            "Flutter": ["Flutter"],
+            "Mobile": ["Flutter"],
             "Backend": ["Nestjs", "Firebase"],
             "Database": ["PostgreSQL", "Firebase", "Firestore"],
             "Other": [
-                "Tenserflow (for AI-powered recommendations)",
-                "Google Maps Api "
+                "Insider",
+                "AppsFlyer",
+                "Mixpanel",
+                "Google Maps Api",
+                "Google Sign-In",
+                "Apple Sign-In",
+                "Firebase Realtime Database"
             ]
         },
         "key_features": [
             "Intuitive and user-friendly shopping experience",
             "Personalized product recommendations using AI",
+            "User engagement tracking with AppsFlyer and Mixpanel",
+            "Deeplinking for seamless navigation from various platforms",
             "Eiger Adventure Club membership perks (discounts & free shipping)",
             "Store locator with Google Maps integration",
-            "Secure payments and order tracking"
+            "Secure payments and order tracking",
+            "Real-time updates on term and condition",
+            "Low bandwidth usage",
+            "Easy user authentication using Google and Apple Sign-In",
+            "Custom Camera"
         ],
         "challenges_solutions": [
             "Performance Optimization: Reduced frame drops by implementing lazy loading for product images and optimizing API calls.",
-            "AI-Powered Recommendations: Integrated TensorFlow models to enhance product recommendations based on user behavior.",
-            "Scalability: Used NestJS and Firebase for a flexible and scalable backend architecture."
+            "AI-Powered Recommendations: Integrated Insider models to enhance product recommendations based on user behavior.",
+            "Scalability and Maintainability: Used clean architecture and best practices to ensure the app is scalable and maintainable.",
+            "User Engagement: Integrated AppsFlyer and Mixpanel to track user behavior and improve marketing strategies.",
+            "User Authentication: Implemented Google Sign-In and Apple Sign-In for a seamless and secure login experience.",
+            "Real-Time Updates: Utilized Firebase Realtime Database to provide instant updates on term and condition."
         ],
 
         "my_role": [
             "Led the mobile development using Flutter, ensuring a smooth UI/UX experience.",
             "Integrated AI-based product recommendations.",
             "Collaborated with backend engineers to optimize API performance.",
-            "Ensured clean and maintainable code using best practices."
+            "Ensured clean and maintainable code using best practices.",
+            "Maintained a crash rate below 1% through rigorous testing and monitoring.",
+            "Reduced app size by 30% through code optimization and asset compression.",
+            "Reduce bandwidth usage by 20% by implementing image caching and prefetching."
         ],
 
         "impact_metrics": [
             {
                 "icon": "ic:baseline-trending-up",
-                "text": "100,000+ downloads on Google Play Store"
+                "text": "100,000+ downloads on Google Play Store And App Store"
             },
             {
                 "icon": "ic:outline-star-rate",
@@ -43,7 +60,11 @@
             },
             {
                 "icon": "mdi:trophy",
-                "text": "Ranked Top 50 in the Shopping category"
+                "text": "Ranked Top 25 in the Shopping category"
+            },
+            {
+                "icon": "mdi:shield-check",
+                "text": "Maintenanced a crash rate below 1%"
             }
         ],
         "future_plans": [
@@ -58,13 +79,11 @@
             "eiger/apps_2.webp"
         ],
         "images": [
-            "eiger/cover.webp",
             "eiger/eiger_pasific_media_conference_2024.webp",
             "eiger/eiger-and-rgb.webp",
             "eiger/eigeradventureland.webp"
         ],
         "captions": [
-            "Eiger Adventure Apps",
             "Eiger Indonesia And Rolling Glory Collaboration",
             "Jason Wuysang (Eiger's Marketing General Manager) and Brian Al Bahr (Rolling Glory's CEO) at Eiger Pasific Media Conference 2024",
             "Eiger Adventure Land"
@@ -81,11 +100,91 @@
         "tag": ["Flutter", "Android", "iOS"]
     },
     {
-        "id": 2,
+        "id": 3,
+        "title": "KaderKita",
+        "overview": "KaderKita is a mobile app developed in collaboration between PATH, Somia, and RGB, funded by the Bill & Melinda Gates Foundation, to enhance healthcare access in rural areas through innovative digital solutions. It enables community health workers to record and manage health data, even without an internet connection. With offline capabilities, KaderKita ensures that data can be stored and synchronized once connectivity is available, making it a reliable tool for improving public health in remote locations.",
+        "techstack": {
+            "Mobile": ["Flutter"],
+            "Backend": ["Nestjs"],
+            "Database": ["PostgreSQL", "IsarDB (Used for mobile offline data storage)"],
+            "Other": [
+                "Geocoding"
+            ]
+        },
+        "key_features": [
+            "Offline Data Collection",
+            "Seamless Data Synchronization ",
+            "Simple and intuitive design for community health workers",
+            "Comprehensive Health Records ",
+            "Geotagging & Mapping",
+            "Customizable Health Forms",
+            "Connects with existing healthcare databases for seamless data sharing"
+        ],
+        "challenges_solutions": [
+            "Limited Internet Access: Enabled offline data collection and automatic synchronization when connectivity is available.",
+            "Data Accuracy & Consistency: Implemented predefined health forms and real-time validation checks to reduce errors.",
+            "Low Digital Literacy Among Health Workers: Designed a user-friendly interface and provided training support for seamless adoption.",
+            "Device & Battery Limitations: Optimized the app for low-power usage and ensured compatibility with lightweight devices.",
+            "Data Security & Privacy Concerns: Enforced encrypted storage and secure access controls to protect sensitive health data"
+        ],
+
+        "my_role": [
+            "Led the mobile development using Flutter, ensuring an intuitive and efficient UI/UX for health workers.",
+            "Developed offline data collection and syncing mechanisms for seamless usability in low-connectivity areas.",
+            "Integrated secure data encryption and access controls to protect sensitive health information.",
+            "Optimized the app for low-power devices, improving performance and battery efficiency.",
+            "Collaborated with backend engineers to ensure smooth API integration and data synchronization with health systems.",
+            "Maintained clean, scalable, and well-documented code following Flutter best practices."
+        ],
+
+        "impact_metrics": [
+            {
+                "icon": "ic:baseline-trending-down",
+                "text": "80% reduction in paper-based data collection, improving efficiency."
+            },
+            {
+                "icon": "ic:baseline-access-time",
+                "text": "Significant time savings for health workers in recording and accessing patient data."
+            },
+            {
+                "icon": "ic:baseline-thumb-up",
+                "text": "Positive user feedback"
+            }
+        ],
+        "future_plans": [
+            "Enhance offline capabilities to support more complex health data collection.",
+            "Integrate real-time data analytics for better decision-making by health workers.",
+            "Develop multilingual support to improve accessibility for diverse communities."
+        ],
+        "description": "In a remote village deep in Papua, where internet access is scarce and paper-based records slow down healthcare services, a team of dedicated health workers gathered to test a new solution (KaderKita). Designed to revolutionize health data collection in rural areas, the app provided offline capabilities, allowing healthcare workers to record, store, and later sync patient data without needing a constant internet connection.\n\nAs the pilot program rolled out, community health workers embraced the app with enthusiasm. For years, they had relied on handwritten notes, often leading to lost records and delayed treatments. Now, with KaderKita, they could quickly log medical histories, update treatments, and tag locations—all from their mobile devices. $! \nWith the success of the pilot in Papua, the project team is now refining KaderKita based on real-world feedback. Future updates will include real-time analytics, multilingual support, and expanded interoperability with national health systems, ensuring more communities benefit from this innovation.\n\nThe journey has just begun, but one thing is clear—KaderKita is bridging the gap in rural healthcare, one digital record at a time.",
+        "thumbnail": [
+            "kaderkita/cover.webp",
+            "kaderkita/apps_1.webp",
+            "kaderkita/apps_2.webp"
+        ],
+        "images": [
+            "kaderkita/rural_area_papua.webp"
+        ],
+        "captions": [
+            "Health Workers in Papua Using KaderKita"
+        ],
+        "slug": "kaderkita",
+        "repository": "",
+        "website": [
+            {
+                "appstore": "",
+                "googleplay": ""
+            }
+        ],
+        "category": "Mobile",
+        "tag": ["Flutter", "Android", "iOS"]
+    },
+    {
+        "id": 4,
         "title": "Exploria Host",
         "overview": "lorem",
         "techstack": {
-            "Flutter": ["Flutter"],
+            "Mobile": ["Flutter"],
             "Backend": ["Nestjs", "Firebase"],
             "Database": ["PostgreSQL", "Firebase", "Firestore"],
             "Other": [
@@ -128,9 +227,9 @@
             }
         ],
         "future_plans": [
-            "Implement an augmented reality (AR) feature for virtual product try-ons",
+            "Implement an live streaming feature",
             "Improve AI recommendations using user engagement data",
-            "Expand the loyalty program with gamification features"
+            "Implement style recommendation"
         ],
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, eum. Voluptatibus voluptas incidunt quod facilis inventore. Tempore, dolores dignissimos? Sit!",
         "thumbnail": [
@@ -152,11 +251,11 @@
         "tag": ["Flutter", "Android", "iOS"]
     },
     {
-        "id": 3,
+        "id": 5,
         "title": "Imma",
         "overview": "lorem",
         "techstack": {
-            "Flutter": ["Flutter"],
+            "Mobile": ["Flutter"],
             "Backend": ["Nestjs", "Firebase"],
             "Database": ["PostgreSQL", "Firebase", "Firestore"],
             "Other": [
@@ -219,11 +318,11 @@
         "tag": ["Flutter", "Android", "iOS"]
     },
     {
-        "id": 4,
+        "id": 6,
         "title": "Jelajahin",
         "overview": "lorem",
         "techstack": {
-            "Flutter": ["Flutter"],
+            "Mobile": ["Flutter"],
             "Backend": ["Nestjs", "Firebase"],
             "Database": ["PostgreSQL", "Firebase", "Firestore"],
             "Other": [
@@ -290,11 +389,11 @@
         "tag": ["Flutter", "Android", "iOS"]
     },
     {
-        "id": 5,
+        "id": 7,
         "title": "Peduly",
         "overview": "lorem",
         "techstack": {
-            "Flutter": ["Flutter"],
+            "Mobile": ["Flutter"],
             "Backend": ["Nestjs", "Firebase"],
             "Database": ["PostgreSQL", "Firebase", "Firestore"],
             "Other": [
@@ -361,11 +460,11 @@
         "tag": ["Flutter", "Android", "iOS"]
     },
     {
-        "id": 6,
+        "id": 8,
         "title": "Pesat",
         "overview": "lorem",
         "techstack": {
-            "Flutter": ["Flutter"],
+            "Mobile": ["Flutter"],
             "Backend": ["Nestjs", "Firebase"],
             "Database": ["PostgreSQL", "Firebase", "Firestore"],
             "Other": [
@@ -432,7 +531,7 @@
         "tag": ["Flutter", "Android", "iOS"]
     },
     {
-        "id": 7,
+        "id": 9,
         "title": "Snapandcook",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, eum. Voluptatibus voluptas incidunt quod facilis inventore. Tempore, dolores dignissimos? Sit!",
         "thumbnail": [
@@ -454,11 +553,11 @@
         "tag": ["Flutter", "Android", "iOS"]
     },
     {
-        "id": 8,
+        "id": 10,
         "title": "Sumbangin aja",
         "overview": "lorem",
         "techstack": {
-            "Flutter": ["Flutter"],
+            "Mobile": ["Flutter"],
             "Backend": ["Nestjs", "Firebase"],
             "Database": ["PostgreSQL", "Firebase", "Firestore"],
             "Other": [
@@ -525,11 +624,11 @@
         "tag": ["Flutter", "Android", "iOS"]
     },
     {
-        "id": 8,
+        "id": 11,
         "title": "Sumbangin aja",
         "overview": "lorem",
         "techstack": {
-            "Flutter": ["Flutter"],
+            "Mobile": ["Flutter"],
             "Backend": ["Nestjs", "Firebase"],
             "Database": ["PostgreSQL", "Firebase", "Firestore"],
             "Other": [
@@ -596,11 +695,11 @@
         "tag": ["NestJs", "Android", "iOS"]
     },
     {
-        "id": 8,
+        "id": 12,
         "title": "Sumbangin aja",
         "overview": "lorem",
         "techstack": {
-            "Flutter": ["Flutter"],
+            "Mobile": ["Flutter"],
             "Backend": ["Nestjs", "Firebase"],
             "Database": ["PostgreSQL", "Firebase", "Firestore"],
             "Other": [
