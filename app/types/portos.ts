@@ -76,6 +76,8 @@ export type Projects = {
     challenges_solutions: string[];
     my_role: string[];
     impact_metrics: string[];
+    images: string[];
+    captions: string[];
     future_plans: string[];
     description: string;
     thumbnail: string[];
