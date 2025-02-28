@@ -1,38 +1,135 @@
 [
   {
-    "name": "Javascript",
-    "icon": "js.png"
+    "category": "Mobile Development",
+    "skills": [
+      {
+        "name": "Flutter",
+        "icon": "flutter.webp"
+      },
+      {
+        "name": "Android",
+        "icon": "android.webp"
+      },
+      {
+        "name": "iOS",
+        "icon": "apple.png"
+      },
+      {
+        "name": "Kotlin",
+        "icon": "kotlin.webp"
+      },
+      {
+        "name": "Java",
+        "icon": "java.webp"
+      },
+      {
+        "name": "Swift",
+        "icon": "swift-og.png"
+      },
+      {
+        "name": "Jetpack Compose",
+        "icon": "jetpack-compose.svg"
+      },
+      {
+        "name": "SwiftUI",
+        "icon": "swift_ui.png"
+      },
+      {
+        "name": "Kotlin Coroutines",
+        "icon": "coroutines.svg"
+      },
+      {
+        "name": "RxJava",
+        "icon": "rxjava.webp"
+      }
+    ]
   },
   {
-    "name": "Vue",
-    "icon": "vue.png"
+    "category": "Frontend Development",
+    "skills": [
+      {
+        "name": "Javascript",
+        "icon": "js.png"
+      },
+      {
+        "name": "Typescript",
+        "icon": "ts.png"
+      },
+      {
+        "name": "React",
+        "icon": "react.svg"
+      },
+      {
+        "name": "Next",
+        "icon": "next.svg"
+      },
+      {
+        "name": "Tailwind",
+        "icon": "tailwind.svg"
+      }
+    ]
   },
   {
-    "name": "Nuxt",
-    "icon": "nuxt.svg"
+    "category": "Backend Development",
+    "skills": [
+      {
+        "name": "Typescript",
+        "icon": "ts.png"
+      },
+      {
+        "name": "NestJS",
+        "icon": "nestjs.png"
+      },
+      {
+        "name": "Next",
+        "icon": "next.svg"
+      },
+      {
+        "name": "Go Language",
+        "icon": "go.png"
+      }
+    ]
   },
   {
-    "name": "React",
-    "icon": "react.svg"
+    "category": "AI Development",
+    "skills": [
+      {
+        "name": "Python",
+        "icon": "pythoned.png"
+      },
+      {
+        "name": "Keras",
+        "icon": "keras.png"
+      },
+      {
+        "name": "Tensorflow",
+        "icon": "tf.png"
+      }
+    ]
   },
   {
-    "name": "Next",
-    "icon": "next.svg"
-  },
-  {
-    "name": "Tailwind",
-    "icon": "tailwind.svg"
-  },
-  {
-    "name": "Figma",
-    "icon": "figma.png"
-  },
-  {
-    "name": "VS Code",
-    "icon": "vscode.png"
-  },
-  {
-    "name": "Typescript",
-    "icon": "ts.png"
+    "category": "Tools",
+    "skills": [
+      {
+        "name": "Figma",
+        "icon": "figma.png"
+      },
+      {
+        "name": "VS Code",
+        "icon": "vscode.png"
+      },
+        {
+            "name": "Android Studio",
+            "icon": "as.png"
+        },
+        {
+            "name": "Xcode",
+            "icon": "xcode.png"
+        },
+      {
+        "name": "Webstorm",
+        "icon": "webstorm.png"
+      }
+    ]
   }
 ]

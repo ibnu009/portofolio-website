@@ -36,13 +36,9 @@ export default function RootLayout({
       offsetY: 600,
     },
     {
-      name: "Experience",
-      offsetY: 1600,
-    },
-    {
       name: "Projects",
-      offsetY: 2400,
-    },
+      offsetY: 1300,
+    }
   ];
 
   return (

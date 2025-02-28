@@ -98,3 +98,8 @@ export type Tool = {
     name: string;
     icon?: string;
 };
+
+export type ToolCategory = {
+    category: string;
+    skills: Tool[];
+};

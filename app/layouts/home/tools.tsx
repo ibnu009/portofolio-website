@@ -1,11 +1,11 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import fetch from "@/app/utils/axios";
-import { Tool } from "@/app/types/portos";
+import {Tool, ToolCategory} from "@/app/types/portos";
 import { config } from "@/app/utils/config";
 
 export default function tools() {
-  const [tools, setTools] = useState<Tool[]>([]);
+  const [tools, setTools] = useState<ToolCategory[]>([]);
 
   const fetchData = async () => {
     try {
@@ -21,25 +21,27 @@ export default function tools() {
   }, []);
 
   return (
-    <div className="space-y-8 pb-16 text-center">
-      <h2 className="text-4xl font-archiabold tracking-tighter">
-        Tools and Skills
-      </h2>
-      <div className="lg:flex grid md:grid-cols-3 grid-cols-2 gap-10 p-5 items-center justify-center">
-        {tools.map((tool: Tool, i: number) => (
-          <div
-            className="space-y-3"
-            key={i}
-          >
-            <img
-              src={"./image/tools/" + tool.icon}
-              alt={tool.name}
-              className="max-w-[70px] max-h-[70px] mx-auto"
-            />
-            <p className="font-outfit text-lg lg:hidden block">{tool.name}</p>
-          </div>
-        ))}
+      <div className="space-y-8 pb-12 text-center">
+        <h2 className="text-4xl font-archiabold tracking-tight">Tools & Skills</h2>
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6 p-4">
+          {tools.flatMap((category) => category.skills).map((skill, i) => (
+              <div
+                  key={i}
+                  className="relative flex flex-col items-center group transition-transform hover:scale-[1.02]"
+              >
+                <img
+                    src={`/image/tools/${skill.icon}`}
+                    alt={skill.name}
+                    className="h-12 md:h-14 opacity-90"
+                />
+                {/* Hover Tooltip */}
+                <p className="absolute bottom-0 translate-y-4 opacity-0 text-xs bg-gray-700/80 text-white px-2 py-1 rounded-md transition-all duration-200 group-hover:opacity-90 group-hover:translate-y-0">
+                  {skill.name}
+                </p>
+              </div>
+          ))}
+        </div>
       </div>
-    </div>
+
   );
 }
