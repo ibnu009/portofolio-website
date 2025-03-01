@@ -1,22 +1,22 @@
 "use client";
 
-import React, { useRef, useEffect, useState, use } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Navigation } from "swiper/modules";
+import React, {useRef, useEffect, useState, use} from "react";
+import {Swiper, SwiperSlide} from "swiper/react";
+import {Autoplay, Navigation} from "swiper/modules";
 import Head from "next/head";
 
 import "swiper/css";
-import { Icon } from "@iconify/react";
+import {Icon} from "@iconify/react";
 import Link from "next/link";
-import { Projects, Tags } from "@/app/types/portos";
+import {Projects, Tags} from "@/app/types/portos";
 import fetch from "@/app/utils/axios";
 
-export default function detail({ slug }: { slug: string }) {
+export default function detail({slug}: { slug: string }) {
     const [data, setData] = useState<Projects>();
     const prevSlide = useRef(null);
     const nextSlide = useRef(null);
 
-    const getDetailProject = async ({ slug }: { slug: string }) => {
+    const getDetailProject = async ({slug}: { slug: string }) => {
         try {
             const response = await fetch.get("project.json");
 
@@ -32,7 +32,7 @@ export default function detail({ slug }: { slug: string }) {
     };
 
     useEffect(() => {
-        getDetailProject({ slug: slug });
+        getDetailProject({slug: slug});
     });
 
     return (
@@ -40,8 +40,8 @@ export default function detail({ slug }: { slug: string }) {
             {data && (
                 <Head>
                     <title>{data.title} . Ibnu Batutah</title>
-                    <meta name="description" content={data.description} />
-                    <meta name="robots" content="index, follow" />
+                    <meta name="description" content={data.description}/>
+                    <meta name="robots" content="index, follow"/>
                     <meta
                         property="og:title"
                         content={`${data.title} . Ibnu Batutah`}
@@ -50,13 +50,13 @@ export default function detail({ slug }: { slug: string }) {
                         property="og:description"
                         content={data.description}
                     />
-                    <meta property="og:type" content="website" />
+                    <meta property="og:type" content="website"/>
                 </Head>
             )}
             <div className="space-y-8 pb-16 pt-10 container mx-auto">
                 <div className="max-w-7xl mx-auto font-outfit">
                     <Link href={`/`} className=" flex gap-2 items-center">
-                        <Icon icon="ion:arrow-back" />{" "}
+                        <Icon icon="ion:arrow-back"/>{" "}
                         <span>Back to home </span>
                     </Link>
                 </div>
@@ -67,7 +67,7 @@ export default function detail({ slug }: { slug: string }) {
                                 ref={nextSlide}
                                 className="px-4 py-4 bg-neutral-800 rounded-full font-outfit absolute  lg:right-0 -right-5  lg:top-80 top-24 text-2xl z-20">
                                 <span>
-                                    <Icon icon="lucide:arrow-right" />
+                                    <Icon icon="lucide:arrow-right"/>
                                 </span>
                             </button>
                         ) : null}
@@ -76,7 +76,7 @@ export default function detail({ slug }: { slug: string }) {
                                 ref={prevSlide}
                                 className="px-4 py-4 bg-neutral-800 rounded-full font-outfit absolute lg:left-0 -left-5  lg:top-80 top-24 text-2xl z-20">
                                 <span>
-                                    <Icon icon="lucide:arrow-left" />
+                                    <Icon icon="lucide:arrow-left"/>
                                 </span>
                             </button>
                         ) : null}
@@ -103,7 +103,8 @@ export default function detail({ slug }: { slug: string }) {
                             ))
                         ) : (
                             <SwiperSlide>
-                                <div className="w-full max-w-7xl mx-auto border-2 border-dashed border-col-secondary-font p-5">
+                                <div
+                                    className="w-full max-w-7xl mx-auto border-2 border-dashed border-col-secondary-font p-5">
                                     No Image Showed
                                 </div>
                             </SwiperSlide>
@@ -149,9 +150,7 @@ export default function detail({ slug }: { slug: string }) {
                                     </React.Fragment>
                                 ))
                             ) : (
-                                <span className="text-center font-outfit px-3 py-1 bg-neutral-800 rounded-md">
-                                    No techonlogy used
-                                </span>
+                                <div></div>
                             )}
                             {data && data.repository && (
                                 <Link
@@ -161,7 +160,7 @@ export default function detail({ slug }: { slug: string }) {
                                     Repository
                                     <span>
                                         {" "}
-                                        <Icon icon="mdi:github" />
+                                        <Icon icon="mdi:github"/>
                                     </span>
                                 </Link>
                             )}
@@ -279,50 +278,45 @@ export default function detail({ slug }: { slug: string }) {
                                     : "No impact metrics available"}
                             </ul>
                         </div>
-                        <div>
-                            <h3 className="text-3xl mb-3 underline underline-offset-8 space-y-8 font-archiabold tracking-tighter">
-                                Future Plans
-                            </h3>
-                            <ul>
-                                {data?.future_plans &&
-                                Array.isArray(data.future_plans)
-                                    ? data.future_plans.map(
-                                        (item: string, i: number) => (
-                                            <li key={i}>✨{item}</li>
-                                        )
-                                    )
-                                    : "No future plans available"}
-                            </ul>
-                        </div>
-                        <div>
-                            <h3 className="text-3xl mb-3 underline underline-offset-8 space-y-8 font-archiabold tracking-tighter">
-                                More About the Project
-                            </h3>
+                        {data?.future_plans && Array.isArray(data.future_plans) && data.future_plans.length > 0 && (
+                            <div>
+                                <h3 className="text-3xl mb-3 underline underline-offset-8 space-y-8 font-archiabold tracking-tighter">
+                                    Future Plans
+                                </h3>
+                                <ul>
+                                    {data.future_plans.map((item: string, i: number) => (
+                                        <li key={i}>✨ {item}</li>
+                                    ))}
+                                </ul>
+                            </div>
+                        )}
 
-                            {data?.description
-                                .split("$!")
-                                .map((text, index) => (
-                                    <div key={index} className="space-y-4">
-                                        <p className="text-neutral-300 text-justify">
-                                            {text}
-                                        </p>
-                                        {data?.images[index] && (
+                        {data?.description?.trim() && (
+                            <div>
+                                <h3 className="text-3xl mb-3 underline underline-offset-8 space-y-8 font-archiabold tracking-tighter">
+                                    More About the Project
+                                </h3>
+
+                                {data.description.split("$!").map((text, index) => (
+                                    <div key={index} className="space-y-4 py-6">
+                                        <p className="text-neutral-300 text-justify">{text}</p>
+
+                                        {data?.images?.[index] && (
                                             <div className="flex flex-col items-center">
                                                 <img
                                                     src={`/image/project/${data.images[index]}`}
                                                     className="w-[90%] max-h-[47vh] mx-auto rounded-md shadow-md object-cover"
-                                                    alt={`Project image ${
-                                                        index + 1
-                                                    }`}
+                                                    alt={`Project image ${index + 1}`}
                                                 />
-                                                <p className="text-sm mt-2">
-                                                    {data.captions[index]}
-                                                </p>
+                                                {data?.captions?.[index] && (
+                                                    <p className="text-sm mt-2">{data.captions[index]}</p>
+                                                )}
                                             </div>
                                         )}
                                     </div>
                                 ))}
-                        </div>
+                            </div>
+                        )}
                     </div>
                 </div>
             </div>
