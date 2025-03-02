@@ -430,56 +430,50 @@
     {
         "id": 8,
         "title": "Pesat",
-        "overview": "lorem",
+        "overview": "Pesat is a mobile application designed to help employees efficiently monitor parking areas, scan parking tickets, and record visitor data at tourist destinations. With Pesat, staff can easily track available parking spaces, validate tickets using a scanning system, and maintain an organized log of visitor entries. The app enhances operational efficiency, reduces manual errors, and ensures a smooth experience for both employees and visitors.",
         "techstack": {
             "Mobile": ["Flutter"],
-            "Backend": ["Nestjs", "Firebase"],
-            "Database": ["PostgreSQL", "Firebase", "Firestore"],
+            "Backend": ["Go Language"],
+            "Database": ["PostgreSQL"],
             "Other": [
-                "Tenserflow (for AI-powered recommendations)",
-                "Google Maps Api "
+                "Geocoding",
+                "Google Maps Api",
+                "QR Scanner",
+                "Push Notification",
+                "Bluetooth"
             ]
         },
         "key_features": [
-            "Intuitive and user-friendly shopping experience",
-            "Personalized product recommendations using AI",
-            "Eiger Adventure Club membership perks (discounts & free shipping)",
-            "Store locator with Google Maps integration",
-            "Secure payments and order tracking"
+            "User-friendly interface for employees",
+            "Quick and accurate parking ticket scanning",
+            "Secure and efficient data management",
+            "Seamless visitor data recording for improved tracking"
         ],
         "challenges_solutions": [
-            "Performance Optimization: Reduced frame drops by implementing lazy loading for product images and optimizing API calls.",
-            "AI-Powered Recommendations: Integrated TensorFlow models to enhance product recommendations based on user behavior.",
-            "Scalability: Used NestJS and Firebase for a flexible and scalable backend architecture."
+            "Performance Optimization: Improved app responsiveness by optimizing database queries and reducing redundant API calls.",
+            "User Experience: Designed an intuitive UI to make parking monitoring and visitor registration seamless for employees.",
+            "Efficient Ticket Scanning: Implemented barcode/QR code scanning technology for faster and more accurate ticket validation."
         ],
 
         "my_role": [
-            "Led the mobile development using Flutter, ensuring a smooth UI/UX experience.",
-            "Integrated AI-based product recommendations.",
-            "Collaborated with backend engineers to optimize API performance.",
-            "Ensured clean and maintainable code using best practices."
+            "Develop mobile app using Flutter, ensuring a seamless experience for employees.",
+            "Implemented a fast and reliable parking ticket scanning system using barcode/QR code technology.",
+            "Collaborated with backend engineers to optimize API performance for real-time data updates.",
+            "Ensured clean, maintainable, and scalable code by following best practices."
         ],
 
         "impact_metrics": [
             {
-                "icon": "ic:baseline-trending-up",
-                "text": "100,000+ downloads on Google Play Store"
-            },
-            {
-                "icon": "ic:outline-star-rate",
-                "text": "4.8-star rating based on 5,000+ reviews"
+                "icon": "mdi:bluetooth",
+                "text": "Enabled fast and reliable ticket printing via Bluetooth for seamless operations"
             },
             {
                 "icon": "mdi:trophy",
-                "text": "Ranked Top 50 in the Shopping category"
+                "text": "Improved parking efficiency and visitor tracking at multiple tourist locations"
             }
         ],
-        "future_plans": [
-            "Implement an augmented reality (AR) feature for virtual product try-ons",
-            "Improve AI recommendations using user engagement data",
-            "Expand the loyalty program with gamification features"
-        ],
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, eum. Voluptatibus voluptas incidunt quod facilis inventore. Tempore, dolores dignissimos? Sit!",
+        "future_plans": [],
+        "description": "",
         "thumbnail": [
             "pesat/cover.webp",
             "pesat/app_1.webp",
@@ -488,20 +482,62 @@
         "images": [],
         "captions": [],
         "slug": "pesat",
-        "repository": "https://github.com",
-        "website": [
-            {
-                "appstore": "",
-                "googleplay": ""
-            }
-        ],
+        "repository": "",
+        "website": [],
         "category": "Mobile",
-        "tag": ["Flutter", "Android", "iOS"]
+        "tag": ["Flutter", "Android", "Go"]
     },
     {
         "id": 9,
-        "title": "Snapandcook",
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, eum. Voluptatibus voluptas incidunt quod facilis inventore. Tempore, dolores dignissimos? Sit!",
+        "title": "SnapAndCook (Mobile)",
+        "overview": "SnapAndCook is a smart recipe recommendation app that uses machine learning to scan available ingredients and suggest the best recipes based on what you have. By leveraging advanced image recognition, SnapAndCook helps users minimize food waste, discover new meal ideas, and cook with ease. Whether you're an experienced chef or a beginner, this app transforms your ingredients into delicious meals effortlessly.",
+        "techstack": {
+            "Mobile": ["Flutter"],
+            "Backend": ["Go Language"],
+            "Database": ["MongoDB"],
+            "Other": [
+                "TensorFlow (for image recognition)",
+                "Simple Additive Weighting (SAW) Algorithm",
+                "Tutorial System"
+            ]
+        },
+        "key_features": [
+            "AI-powered ingredient scanning for accurate recognition",
+            "Personalized recipe recommendations based on available ingredients",
+            "Smart meal planning to reduce food waste",
+            "User-friendly interface with step-by-step cooking instructions"
+        ],
+        "challenges_solutions": [
+            "Ingredient Recognition Accuracy: Improved ML model performance to accurately detect a wide variety of ingredients, even in cluttered environments.",
+            "Recipe Recommendation Quality: Enhanced AI algorithm to provide more relevant and diverse recipe suggestions based on ingredient combinations.",
+            "App Performance: Optimized image processing and reduced ML inference time to ensure a smooth user experience.",
+            "User Experience: Designed a clean and intuitive UI for effortless ingredient scanning and recipe browsing."
+        ],
+
+        "my_role": [
+            "Developed the mobile app using Flutter, ensuring a smooth and intuitive user experience.",
+            "Integrated machine learning models for accurate ingredient recognition.",
+            "Implemented AI-based recipe recommendation system based on detected ingredients.",
+            "Optimized image processing and ML inference to improve app performance.",
+            "Maintained clean, scalable, and efficient code following best practices."
+        ],
+
+        "impact_metrics": [
+            {
+                "icon": "mdi:brain",
+                "text": "Achieved 90% ingredient recognition accuracy using YOLO"
+            },
+            {
+                "icon": "mdi:star",
+                "text": "Received positive user feedback for intuitive design and AI-powered suggestions"
+            },
+            {
+                "icon": "mdi:leaf",
+                "text": "Contributed to food waste reduction by suggesting meals based on available ingredients"
+            }
+        ],
+        "future_plans": [],
+        "description": "",
         "thumbnail": [
             "snapandcook/cover.webp",
             "snapandcook/app_1.webp",
@@ -510,15 +546,10 @@
         "images": [],
         "captions": [],
         "slug": "snapandcook",
-        "repository": "https://github.com",
-        "website": [
-            {
-                "appstore": "",
-                "googleplay": ""
-            }
-        ],
+        "repository": "https://github.com/ibnu009/snap_and_cook_mobile",
+        "website": [],
         "category": "Mobile",
-        "tag": ["Flutter", "Android", "iOS"]
+        "tag": ["Flutter", "Android", "Machine Learning"]
     },
     {
         "id": 10,
