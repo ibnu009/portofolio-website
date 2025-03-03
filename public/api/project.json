@@ -554,56 +554,39 @@
     {
         "id": 10,
         "title": "Sumbangin aja",
-        "overview": "lorem",
+        "overview": "Sumbangin Aja is a mobile application that connects individuals and businesses with surplus food to those in need, helping to minimize waste and support local communities. The app provides an intuitive platform where users can easily list, donate, and share excess food while ensuring safety and hygiene through built-in guidelines.",
         "techstack": {
-            "Mobile": ["Flutter"],
-            "Backend": ["Nestjs", "Firebase"],
-            "Database": ["PostgreSQL", "Firebase", "Firestore"],
+            "Mobile": ["Android", "Kotlin", "Jetpack"],
+            "Backend": ["Laravel"],
+            "Database": ["PostgreSQL"],
             "Other": [
-                "Tenserflow (for AI-powered recommendations)",
-                "Google Maps Api "
+                "Google Maps Api"
             ]
         },
         "key_features": [
-            "Intuitive and user-friendly shopping experience",
-            "Personalized product recommendations using AI",
-            "Eiger Adventure Club membership perks (discounts & free shipping)",
-            "Store locator with Google Maps integration",
-            "Secure payments and order tracking"
+            "Community-driven platform to reduce food waste",
+            "Real-time location-based donations with Google Maps integration",
+            "Safety guidelines to ensure food quality and hygiene",
+            "Intuitive and user-friendly donation process"
         ],
         "challenges_solutions": [
-            "Performance Optimization: Reduced frame drops by implementing lazy loading for product images and optimizing API calls.",
-            "AI-Powered Recommendations: Integrated TensorFlow models to enhance product recommendations based on user behavior.",
-            "Scalability: Used NestJS and Firebase for a flexible and scalable backend architecture."
+            "User Engagement: Simplified the donation process with an intuitive UI/UX, making it easy for users to list and claim food donations.",
+            "Food Safety: Integrated safety guidelines and expiration date checks to ensure the quality and hygiene of donated food."
         ],
-
         "my_role": [
-            "Led the mobile development using Flutter, ensuring a smooth UI/UX experience.",
-            "Integrated AI-based product recommendations.",
-            "Collaborated with backend engineers to optimize API performance.",
-            "Ensured clean and maintainable code using best practices."
+            "Integrated Google Maps for real-time location-based donation tracking.",
+            "Collaborated with backend engineers to optimize data synchronization and API performance.",
+            "Ensured clean, maintainable, and scalable code using best practices in Modern Android Development."
         ],
 
         "impact_metrics": [
             {
-                "icon": "ic:baseline-trending-up",
-                "text": "100,000+ downloads on Google Play Store"
-            },
-            {
-                "icon": "ic:outline-star-rate",
-                "text": "4.8-star rating based on 5,000+ reviews"
-            },
-            {
                 "icon": "mdi:trophy",
-                "text": "Ranked Top 50 in the Shopping category"
+                "text": "Finalist in KMIPN 3 Hackathon"
             }
         ],
-        "future_plans": [
-            "Implement an augmented reality (AR) feature for virtual product try-ons",
-            "Improve AI recommendations using user engagement data",
-            "Expand the loyalty program with gamification features"
-        ],
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, eum. Voluptatibus voluptas incidunt quod facilis inventore. Tempore, dolores dignissimos? Sit!",
+        "future_plans": [],
+        "description": "",
         "thumbnail": [
             "sumbanginaja/cover.webp",
             "sumbanginaja/app_1.webp",
@@ -620,78 +603,61 @@
             }
         ],
         "category": "Mobile",
-        "tag": ["Flutter", "Android", "iOS"]
+        "tag": ["Android", "Kotlin"]
     },
     {
         "id": 11,
-        "title": "Sumbangin aja",
-        "overview": "lorem",
+        "title": "Glory Convention Lints",
+        "overview": "Glory Convention Lints is a powerful linter library designed to enforce the coding conventions and standards of our company. Built with maintainability, consistency, and best practices in mind, this library ensures that all projects adhere to a unified coding style, improving code quality and collaboration across teams.",
         "techstack": {
-            "Mobile": ["Flutter"],
-            "Backend": ["Nestjs", "Firebase"],
-            "Database": ["PostgreSQL", "Firebase", "Firestore"],
-            "Other": [
-                "Tenserflow (for AI-powered recommendations)",
-                "Google Maps Api "
-            ]
+            "Mobile": ["Flutter"]
         },
         "key_features": [
-            "Intuitive and user-friendly shopping experience",
-            "Personalized product recommendations using AI",
-            "Eiger Adventure Club membership perks (discounts & free shipping)",
-            "Store locator with Google Maps integration",
-            "Secure payments and order tracking"
+            "Enforces company-wide coding standards and best practices",
+            "Customizable lint rules tailored to development needs",
+            "Seamless integration with CI/CD pipelines for automated code checks",
+            "Improves code maintainability and readability"
         ],
         "challenges_solutions": [
-            "Performance Optimization: Reduced frame drops by implementing lazy loading for product images and optimizing API calls.",
-            "AI-Powered Recommendations: Integrated TensorFlow models to enhance product recommendations based on user behavior.",
-            "Scalability: Used NestJS and Firebase for a flexible and scalable backend architecture."
+            "Rule Customization: Implemented a flexible rule configuration system to allow teams to tailor linting to their specific needs.",
+            "Performance Optimization: Optimized linting speed by parallelizing rule checks and reducing unnecessary computations."
         ],
-
         "my_role": [
-            "Led the mobile development using Flutter, ensuring a smooth UI/UX experience.",
-            "Integrated AI-based product recommendations.",
-            "Collaborated with backend engineers to optimize API performance.",
-            "Ensured clean and maintainable code using best practices."
+            "Developed and researched a custom linter to enforce company-wide coding standards.",
+            "Designed and implemented custom lint rules tailored to development needs.",
+            "Optimized linting performance for faster and more efficient code analysis.",
+            "Collaborated with development teams to refine and enhance linting rules."
         ],
-
         "impact_metrics": [
             {
-                "icon": "ic:baseline-trending-up",
-                "text": "100,000+ downloads on Google Play Store"
+                "icon": "ic:outline-auto-fix-high",
+                "text": "Reduced manual code reviews by senior developers with automated linting"
             },
             {
-                "icon": "ic:outline-star-rate",
-                "text": "4.8-star rating based on 5,000+ reviews"
-            },
-            {
-                "icon": "mdi:trophy",
-                "text": "Ranked Top 50 in the Shopping category"
+                "icon": "mdi:chart-line",
+                "text": "Improved code quality and maintainability through consistent best practices"
             }
         ],
         "future_plans": [
-            "Implement an augmented reality (AR) feature for virtual product try-ons",
-            "Improve AI recommendations using user engagement data",
-            "Expand the loyalty program with gamification features"
+            "Expand rule coverage to enforce more best practices and security guidelines",
+            "Support additional programming languages and frameworks",
+            "Optimize linting performance for even faster analysis"
         ],
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, eum. Voluptatibus voluptas incidunt quod facilis inventore. Tempore, dolores dignissimos? Sit!",
+        "description": "",
         "thumbnail": [
-            "sumbanginaja/cover.webp",
-            "sumbanginaja/app_1.webp",
-            "sumbanginaja/app_2.webp"
+            "glory_linter/cover.webp"
         ],
         "images": [],
         "captions": [],
-        "slug": "sumbangin-aja",
+        "slug": "glory-convention-lints",
         "repository": "https://github.com",
         "website": [
             {
-                "appstore": "",
-                "googleplay": ""
+                "pub": "https://pub.dev/packages/glory_convention_lint"
             }
         ],
-        "category": "Backend",
-        "tag": ["NestJs", "Android", "iOS"]
+        "category": "Library",
+        "tag": ["Flutter", "Library", "Linter"]
     },
     {
         "id": 12,

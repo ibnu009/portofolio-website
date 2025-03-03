@@ -147,6 +147,15 @@ export default function detail({slug}: { slug: string }) {
                                                 <span>Google Play</span>
                                             </Link>
                                         )}
+                                        {item && item.pub && (
+                                            <Link
+                                                href={item.pub}
+                                                target="_blank"
+                                                className="px-5 lg:text-base text-sm font-outfit py-2 flex gap-2 items-center bg-neutral-700 rounded-md text-white">
+                                                <Icon icon="mdi:package-variant-closed" className="text-lg" />
+                                                <span>Pub.dev</span>
+                                            </Link>
+                                        )}
                                     </React.Fragment>
                                 ))
                             ) : (
