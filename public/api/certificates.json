@@ -3,28 +3,32 @@
     "title": "Dev Certification for Android",
     "category": "certif",
     "image": "dca.webp",
-    "description": "This certification is provided by Google for Android developers. This certification is a proof that I have mastered the basics of Android development."
+    "description": "This certification validates advanced Android development skills, including building complex UIs, managing data with Room and Paging, scheduling background tasks with WorkManager/AlarmManager, implementing notifications, debugging with Android Studio, and ensuring quality through UI testing.",
+    "credential": "https://dev.id/certificate/verify/D1VD6K70YZ"
   },
   {
     "title": "Dicoding Menjadi Android Experts",
     "category": "certif",
     "image": "cert-android-expert.png",
-    "description": "This certification is provided by Dicoding for Android developers. This certification is a proof that I have mastered the basics of Android development."
+    "description": "This certification is provided by Dicoding for Android developers. This certification is a proof that I have mastered the basics of Android development.",
+    "credential": "https://www.dicoding.com/certificates/MRZMK89QLPYQ"
   },
   {
     "title": "Dicoding Menjadi Flutter Developer Experts",
     "category": "certif",
     "image": "cert-flutter-expert.png",
-    "description": "This certification is provided by Dicoding for Flutter developers. This certification is a proof that I have mastered the basics of Flutter development."
+    "description": "This certification is provided by Dicoding for Flutter developers. This certification is a proof that I have mastered the basics of Flutter development.",
+    "credential": "https://www.dicoding.com/certificates/QLZ9K9GV7Z5D"
   },
   {
     "title": "Dicoding Android Fundamental",
     "category": "certif",
     "image": "cert-android-fundamental.png",
-    "description": "This certification is provided by Dicoding for Android developers. This certification is a proof that I have mastered the basics of Android development."
+    "description": "This certification is provided by Dicoding for Android developers. This certification is a proof that I have mastered the basics of Android development.",
+    "credential": "https://www.dicoding.com/certificates/6RPN622LQP2M"
   },
   {
-    "title": "Dicoding Android Intermidiete",
+    "title": "Dicoding Android Intermediate",
     "category": "certif",
     "image": "cert-android-intermediate.png",
     "description": "This certification is provided by Dicoding for Android developers. This certification is a proof that I have mastered the basics of Android development."

@@ -66,24 +66,34 @@ export type Homes = {
     sm: SocialMedia[];
 };
 
+export type ProjectImpactMetric = {
+    icon: string;
+    text: string;
+};
+
+export type ProjectWebsite = {
+    appstore?: string;
+    googleplay?: string;
+};
+
 export type Projects = {
-    content: any;
+    content?: any;
     id: number;
     title: string;
-    overview: string;
-    techstack: string[];
-    key_features: string[];
-    challenges_solutions: string[];
-    my_role: string[];
-    impact_metrics: string[];
-    images: string[];
-    captions: string[];
-    future_plans: string[];
+    overview?: string;
+    techstack?: Record<string, string[] | string>;
+    key_features?: string[];
+    challenges_solutions?: string[];
+    my_role?: string[];
+    impact_metrics?: ProjectImpactMetric[];
+    future_plans?: string[];
     description: string;
     thumbnail: string[];
+    images?: string[];
+    captions?: string[];
     slug: string;
     repository?: string;
-    website?: string[];
+    website?: ProjectWebsite[];
     category?: string;
     tag: string[];
 };
@@ -98,6 +108,7 @@ export type Tool = {
     name: string;
     icon?: string;
 };
+
 
 export type ToolCategory = {
     category: string;

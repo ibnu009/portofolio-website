@@ -72,7 +72,7 @@ export default function Achievement() {
     if (!showModal) return null;
     return (
         <div className="fixed inset-0 backdrop-filter backdrop-blur-sm bg-black bg-opacity-50 z-50 flex items-center justify-center p-4 animate-fadeIn" onClick={() => setShowModal(false)}>
-          <div className="bg-neutral-900 p-6 rounded-lg max-w-7xl w-full">
+          <div className="bg-neutral-900 p-6 rounded-lg max-w-7xl w-full" onClick={(e) => e.stopPropagation()}>
             <div className="flex justify-between items-center mb-4">
               <h3 className="text-xl font-archiabold  border-col-primary-font">
                 {selectedItem?.title}
@@ -96,8 +96,19 @@ export default function Achievement() {
                     className="w-full rounded-lg"
                 />
               </div>
-              <div className="flex flex-row justify-start font-outfit">
+              <div className="flex flex-col gap-4 justify-start font-outfit">
                 <p className="text-col-white">{selectedItem?.description}</p>
+                {selectedItem?.credential || selectedItem?.credential_url || selectedItem?.url ? (
+                  <a
+                    href={(selectedItem?.credential || selectedItem?.credential_url || selectedItem?.url) as string}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 self-start px-4 py-2 bg-neutral-800 hover:bg-neutral-700 text-white rounded-md"
+                  >
+                    <Icon icon="mdi:external-link" />
+                    <span>See credentials</span>
+                  </a>
+                ) : null}
               </div>
             </div>
           </div>
