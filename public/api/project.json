@@ -4,38 +4,55 @@
         "title": "Eiger Adventure",
         "overview": "Eiger Adventure is a premier mobile application designed to enhance the outdoor experience by providing a seamless shopping platform for adventure enthusiasts. The app offers a wide range of high-quality outdoor gear, including apparel and equipment tailored for activities such as camping, hiking, traveling, and riding.\n\nWith a user-friendly interface, Eiger Adventure enables customers to explore products effortlessly, shop based on their preferred activities, and stay connected with official Eiger stores. The app also provides exclusive benefits for members of the Eiger Adventure Club, including special promotions and free shipping across Indonesia.\n\nBy integrating modern e-commerce features with a passion for outdoor adventure, Eiger Adventure ensures that every journey is well-equipped and more enjoyable.",
         "techstack": {
-            "Flutter": ["Flutter"],
+            "Mobile": ["Flutter"],
             "Backend": ["Nestjs", "Firebase"],
             "Database": ["PostgreSQL", "Firebase", "Firestore"],
             "Other": [
-                "Tenserflow (for AI-powered recommendations)",
-                "Google Maps Api "
+                "Insider",
+                "AppsFlyer",
+                "Mixpanel",
+                "Google Maps Api",
+                "Google Sign-In",
+                "Apple Sign-In",
+                "Firebase Realtime Database"
             ]
         },
         "key_features": [
             "Intuitive and user-friendly shopping experience",
             "Personalized product recommendations using AI",
+            "User engagement tracking with AppsFlyer and Mixpanel",
+            "Deeplinking for seamless navigation from various platforms",
             "Eiger Adventure Club membership perks (discounts & free shipping)",
             "Store locator with Google Maps integration",
-            "Secure payments and order tracking"
+            "Secure payments and order tracking",
+            "Real-time updates on term and condition",
+            "Low bandwidth usage",
+            "Easy user authentication using Google and Apple Sign-In",
+            "Custom Camera"
         ],
         "challenges_solutions": [
             "Performance Optimization: Reduced frame drops by implementing lazy loading for product images and optimizing API calls.",
-            "AI-Powered Recommendations: Integrated TensorFlow models to enhance product recommendations based on user behavior.",
-            "Scalability: Used NestJS and Firebase for a flexible and scalable backend architecture."
+            "AI-Powered Recommendations: Integrated Insider models to enhance product recommendations based on user behavior.",
+            "Scalability and Maintainability: Used clean architecture and best practices to ensure the app is scalable and maintainable.",
+            "User Engagement: Integrated AppsFlyer and Mixpanel to track user behavior and improve marketing strategies.",
+            "User Authentication: Implemented Google Sign-In and Apple Sign-In for a seamless and secure login experience.",
+            "Real-Time Updates: Utilized Firebase Realtime Database to provide instant updates on term and condition."
         ],
 
         "my_role": [
             "Led the mobile development using Flutter, ensuring a smooth UI/UX experience.",
             "Integrated AI-based product recommendations.",
             "Collaborated with backend engineers to optimize API performance.",
-            "Ensured clean and maintainable code using best practices."
+            "Ensured clean and maintainable code using best practices.",
+            "Maintained a crash rate below 1% through rigorous testing and monitoring.",
+            "Reduced app size by 30% through code optimization and asset compression.",
+            "Reduce bandwidth usage by 20% by implementing image caching and prefetching."
         ],
 
         "impact_metrics": [
             {
                 "icon": "ic:baseline-trending-up",
-                "text": "100,000+ downloads on Google Play Store"
+                "text": "100,000+ downloads on Google Play Store And App Store"
             },
             {
                 "icon": "ic:outline-star-rate",
@@ -43,7 +60,11 @@
             },
             {
                 "icon": "mdi:trophy",
-                "text": "Ranked Top 50 in the Shopping category"
+                "text": "Ranked Top 25 in the Shopping category"
+            },
+            {
+                "icon": "mdi:shield-check",
+                "text": "Maintenanced a crash rate below 1%"
             }
         ],
         "future_plans": [
@@ -58,13 +79,11 @@
             "eiger/apps_2.webp"
         ],
         "images": [
-            "eiger/cover.webp",
             "eiger/eiger_pasific_media_conference_2024.webp",
             "eiger/eiger-and-rgb.webp",
             "eiger/eigeradventureland.webp"
         ],
         "captions": [
-            "Eiger Adventure Apps",
             "Eiger Indonesia And Rolling Glory Collaboration",
             "Jason Wuysang (Eiger's Marketing General Manager) and Brian Al Bahr (Rolling Glory's CEO) at Eiger Pasific Media Conference 2024",
             "Eiger Adventure Land"
@@ -81,134 +100,76 @@
         "tag": ["Flutter", "Android", "iOS"]
     },
     {
-        "id": 2,
-        "title": "Exploria Host",
-        "overview": "lorem",
-        "techstack": {
-            "Flutter": ["Flutter"],
-            "Backend": ["Nestjs", "Firebase"],
-            "Database": ["PostgreSQL", "Firebase", "Firestore"],
-            "Other": [
-                "Tenserflow (for AI-powered recommendations)",
-                "Google Maps Api "
-            ]
-        },
-        "key_features": [
-            "Intuitive and user-friendly shopping experience",
-            "Personalized product recommendations using AI",
-            "Eiger Adventure Club membership perks (discounts & free shipping)",
-            "Store locator with Google Maps integration",
-            "Secure payments and order tracking"
-        ],
-        "challenges_solutions": [
-            "Performance Optimization: Reduced frame drops by implementing lazy loading for product images and optimizing API calls.",
-            "AI-Powered Recommendations: Integrated TensorFlow models to enhance product recommendations based on user behavior.",
-            "Scalability: Used NestJS and Firebase for a flexible and scalable backend architecture."
-        ],
-
-        "my_role": [
-            "Led the mobile development using Flutter, ensuring a smooth UI/UX experience.",
-            "Integrated AI-based product recommendations.",
-            "Collaborated with backend engineers to optimize API performance.",
-            "Ensured clean and maintainable code using best practices."
-        ],
-
-        "impact_metrics": [
-            {
-                "icon": "ic:baseline-trending-up",
-                "text": "100,000+ downloads on Google Play Store"
-            },
-            {
-                "icon": "ic:outline-star-rate",
-                "text": "4.8-star rating based on 5,000+ reviews"
-            },
-            {
-                "icon": "mdi:trophy",
-                "text": "Ranked Top 50 in the Shopping category"
-            }
-        ],
-        "future_plans": [
-            "Implement an augmented reality (AR) feature for virtual product try-ons",
-            "Improve AI recommendations using user engagement data",
-            "Expand the loyalty program with gamification features"
-        ],
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, eum. Voluptatibus voluptas incidunt quod facilis inventore. Tempore, dolores dignissimos? Sit!",
-        "thumbnail": [
-            "exploria_host/cover.webp",
-            "exploria_host/app_1.webp",
-            "exploria_host/app_2.webp"
-        ],
-        "images": [],
-        "captions": [],
-        "slug": "exploria-host",
-        "repository": "https://github.com",
-        "website": [
-            {
-                "appstore": "",
-                "googleplay": ""
-            }
-        ],
-        "category": "Mobile",
-        "tag": ["Flutter", "Android", "iOS"]
-    },
-    {
         "id": 3,
-        "title": "Imma",
-        "overview": "lorem",
+        "title": "KaderKita",
+        "overview": "KaderKita is a mobile app developed in collaboration between PATH, Somia, and RGB, funded by the Bill & Melinda Gates Foundation, to enhance healthcare access in rural areas through innovative digital solutions. It enables community health workers to record and manage health data, even without an internet connection. With offline capabilities, KaderKita ensures that data can be stored and synchronized once connectivity is available, making it a reliable tool for improving public health in remote locations.",
         "techstack": {
-            "Flutter": ["Flutter"],
-            "Backend": ["Nestjs", "Firebase"],
-            "Database": ["PostgreSQL", "Firebase", "Firestore"],
+            "Mobile": ["Flutter"],
+            "Backend": ["Nestjs"],
+            "Database": ["PostgreSQL", "IsarDB (Used for mobile offline data storage)"],
             "Other": [
-                "Tenserflow (for AI-powered recommendations)",
-                "Google Maps Api "
+                "Geocoding"
             ]
         },
         "key_features": [
-            "Intuitive and user-friendly shopping experience",
-            "Personalized product recommendations using AI",
-            "Eiger Adventure Club membership perks (discounts & free shipping)",
-            "Store locator with Google Maps integration",
-            "Secure payments and order tracking"
+            "Offline Data Collection",
+            "Seamless Data Synchronization ",
+            "Simple and intuitive design for community health workers",
+            "Comprehensive Health Records ",
+            "Geotagging & Mapping",
+            "Customizable Health Forms",
+            "Connects with existing healthcare databases for seamless data sharing"
         ],
         "challenges_solutions": [
-            "Performance Optimization: Reduced frame drops by implementing lazy loading for product images and optimizing API calls.",
-            "AI-Powered Recommendations: Integrated TensorFlow models to enhance product recommendations based on user behavior.",
-            "Scalability: Used NestJS and Firebase for a flexible and scalable backend architecture."
+            "Limited Internet Access: Enabled offline data collection and automatic synchronization when connectivity is available.",
+            "Data Accuracy & Consistency: Implemented predefined health forms and real-time validation checks to reduce errors.",
+            "Low Digital Literacy Among Health Workers: Designed a user-friendly interface and provided training support for seamless adoption.",
+            "Device & Battery Limitations: Optimized the app for low-power usage and ensured compatibility with lightweight devices.",
+            "Data Security & Privacy Concerns: Enforced encrypted storage and secure access controls to protect sensitive health data"
         ],
 
         "my_role": [
-            "Led the mobile development using Flutter, ensuring a smooth UI/UX experience.",
-            "Integrated AI-based product recommendations.",
-            "Collaborated with backend engineers to optimize API performance.",
-            "Ensured clean and maintainable code using best practices."
+            "Led the mobile development using Flutter, ensuring an intuitive and efficient UI/UX for health workers.",
+            "Developed offline data collection and syncing mechanisms for seamless usability in low-connectivity areas.",
+            "Integrated secure data encryption and access controls to protect sensitive health information.",
+            "Optimized the app for low-power devices, improving performance and battery efficiency.",
+            "Collaborated with backend engineers to ensure smooth API integration and data synchronization with health systems.",
+            "Maintained clean, scalable, and well-documented code following Flutter best practices."
         ],
 
         "impact_metrics": [
             {
-                "icon": "ic:baseline-trending-up",
-                "text": "100,000+ downloads on Google Play Store"
+                "icon": "ic:baseline-trending-down",
+                "text": "80% reduction in paper-based data collection, improving efficiency."
             },
             {
-                "icon": "ic:outline-star-rate",
-                "text": "4.8-star rating based on 5,000+ reviews"
+                "icon": "ic:baseline-access-time",
+                "text": "Significant time savings for health workers in recording and accessing patient data."
             },
             {
-                "icon": "mdi:trophy",
-                "text": "Ranked Top 50 in the Shopping category"
+                "icon": "ic:baseline-thumb-up",
+                "text": "Positive user feedback"
             }
         ],
         "future_plans": [
-            "Implement an augmented reality (AR) feature for virtual product try-ons",
-            "Improve AI recommendations using user engagement data",
-            "Expand the loyalty program with gamification features"
+            "Enhance offline capabilities to support more complex health data collection.",
+            "Integrate real-time data analytics for better decision-making by health workers.",
+            "Develop multilingual support to improve accessibility for diverse communities."
         ],
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, eum. Voluptatibus voluptas incidunt quod facilis inventore. Tempore, dolores dignissimos? Sit!",
-        "thumbnail": ["imma/cover.webp", "imma/app_1.webp", "imma/app_2.webp"],
-        "images": [],
-        "captions": [],
-        "slug": "imma",
-        "repository": "https://github.com",
+        "description": "In a remote village deep in Papua, where internet access is scarce and paper-based records slow down healthcare services, a team of dedicated health workers gathered to test a new solution (KaderKita). Designed to revolutionize health data collection in rural areas, the app provided offline capabilities, allowing healthcare workers to record, store, and later sync patient data without needing a constant internet connection.\n\nAs the pilot program rolled out, community health workers embraced the app with enthusiasm. For years, they had relied on handwritten notes, often leading to lost records and delayed treatments. Now, with KaderKita, they could quickly log medical histories, update treatments, and tag locations—all from their mobile devices. $! \nWith the success of the pilot in Papua, the project team is now refining KaderKita based on real-world feedback. Future updates will include real-time analytics, multilingual support, and expanded interoperability with national health systems, ensuring more communities benefit from this innovation.\n\nThe journey has just begun, but one thing is clear—KaderKita is bridging the gap in rural healthcare, one digital record at a time.",
+        "thumbnail": [
+            "kaderkita/cover.webp",
+            "kaderkita/apps_1.webp",
+            "kaderkita/apps_2.webp"
+        ],
+        "images": [
+            "kaderkita/rural_area_papua.webp"
+        ],
+        "captions": [
+            "Health Workers in Papua Using KaderKita"
+        ],
+        "slug": "kaderkita",
+        "repository": "",
         "website": [
             {
                 "appstore": "",
@@ -220,57 +181,110 @@
     },
     {
         "id": 4,
-        "title": "Jelajahin",
-        "overview": "lorem",
+        "title": "Exploria Host",
+        "overview": "Exploria Host is a platform designed for passionate local tour guides and event organizers. With Exploria Host, you can register as a local guide, mark new locations, and create unique local events to showcase the beauty of your region.",
         "techstack": {
-            "Flutter": ["Flutter"],
-            "Backend": ["Nestjs", "Firebase"],
-            "Database": ["PostgreSQL", "Firebase", "Firestore"],
+            "Mobile": ["Flutter"],
+            "Backend": ["Go Language"],
+            "Database": ["MySql"],
             "Other": [
-                "Tenserflow (for AI-powered recommendations)",
-                "Google Maps Api "
+                "Geocoding",
+                "Google Maps Api",
+                "Google Places Api",
+                "GeoFence",
+                "Push Notification",
+                "Firebase Cloud Messaging"
             ]
         },
         "key_features": [
-            "Intuitive and user-friendly shopping experience",
-            "Personalized product recommendations using AI",
-            "Eiger Adventure Club membership perks (discounts & free shipping)",
-            "Store locator with Google Maps integration",
-            "Secure payments and order tracking"
+            "Add hidden gems, cultural landmarks, and must-visit spots to enrich the travel experience.",
+            "Create and manage local events to engage with travelers",
+            "Interact with an active community through reviews and insights",
+            "Use interactive maps for easy location marking and navigation"
         ],
         "challenges_solutions": [
-            "Performance Optimization: Reduced frame drops by implementing lazy loading for product images and optimizing API calls.",
-            "AI-Powered Recommendations: Integrated TensorFlow models to enhance product recommendations based on user behavior.",
-            "Scalability: Used NestJS and Firebase for a flexible and scalable backend architecture."
+            "Google Maps Integration: Successfully implemented custom markers and optimized performance for smooth navigation.",
+            "Geocoding & Location Data: Integrated geocoding services to accurately convert addresses into coordinates and improve location-based search.",
+            "Event Management System: Built a user-friendly interface for guides to create, manage, and promote local events effortlessly."
         ],
-
         "my_role": [
-            "Led the mobile development using Flutter, ensuring a smooth UI/UX experience.",
-            "Integrated AI-based product recommendations.",
-            "Collaborated with backend engineers to optimize API performance.",
-            "Ensured clean and maintainable code using best practices."
+            "Led the project as the Project Manager, overseeing development, strategy, and execution.",
+            "Developed the mobile application using Flutter, ensuring a seamless UI/UX experience.",
+            "Coordinated with designers and engineers to align features with user needs and business goals.",
+            "Ensured clean, scalable, and maintainable code for both frontend and backend systems."
         ],
-
         "impact_metrics": [
             {
-                "icon": "ic:baseline-trending-up",
-                "text": "100,000+ downloads on Google Play Store"
-            },
-            {
-                "icon": "ic:outline-star-rate",
-                "text": "4.8-star rating based on 5,000+ reviews"
-            },
-            {
                 "icon": "mdi:trophy",
-                "text": "Ranked Top 50 in the Shopping category"
+                "text": "1st Place for Best App at my campus competition"
+            },
+            {
+                "icon": "ic:outline-grade",
+                "text": "Awarded an A for outstanding project execution"
             }
         ],
-        "future_plans": [
-            "Implement an augmented reality (AR) feature for virtual product try-ons",
-            "Improve AI recommendations using user engagement data",
-            "Expand the loyalty program with gamification features"
+        "future_plans": [],
+        "description": "",
+        "thumbnail": [
+            "exploria_host/cover.webp",
+            "exploria_host/app_1.webp",
+            "exploria_host/app_2.webp"
         ],
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, eum. Voluptatibus voluptas incidunt quod facilis inventore. Tempore, dolores dignissimos? Sit!",
+        "images": [],
+        "captions": [],
+        "slug": "exploria-host",
+        "repository": "https://github.com/ibnu009/exploriahost",
+        "website": [
+        ],
+        "category": "Mobile",
+        "tag": ["Flutter", "Android", "iOS", "Go"]
+    },
+    {
+        "id": 6,
+        "title": "Jelajahin",
+        "overview": "Jelajahin is your ultimate guide to discovering local attractions and hidden gems. Whether you're looking for scenic spots, cultural experiences, or off-the-beaten-path adventures, Jelajahin helps you explore unique places near you with ease.",
+        "techstack": {
+            "Mobile": ["Flutter"],
+            "Backend": ["Go Language"],
+            "Database": ["MySql"],
+            "Other": [
+                "Geocoding",
+                "Google Maps Api",
+                "Google Places Api",
+                "GeoFence",
+                "Push Notification",
+                "Firebase Cloud Messaging"
+            ]
+        },
+        "key_features": [
+            "Discover hidden gems and local attractions effortlessly",
+            "Explore places with interactive maps and real-time navigation",
+            "Save favorite locations and create custom travel lists",
+            "Stay updated with reviews, ratings, and community insights"
+        ],
+        "challenges_solutions": [
+            "Google Maps Integration: Successfully implemented custom markers and optimized performance for smooth navigation.",
+            "Geocoding & Location Data: Integrated geocoding services to accurately convert addresses into coordinates and improve location-based search.",
+            "Budget-Based Recommendations: Developed an AI-driven recommendation system to suggest attractions based on user budget and preferences."
+        ],
+        "my_role": [
+            "Led the project as the Project Manager, overseeing development, strategy, and execution.",
+            "Developed the mobile application using Flutter, ensuring a seamless UI/UX experience.",
+            "Coordinated with designers and engineers to align features with user needs and business goals.",
+            "Ensured clean, scalable, and maintainable code for both frontend and backend systems."
+        ],
+        "impact_metrics": [
+            {
+                "icon": "mdi:trophy",
+                "text": "1st Place for Best App at my campus competition"
+            },
+            {
+                "icon": "ic:outline-grade",
+                "text": "Awarded an A for outstanding project execution"
+            }
+        ],
+        "future_plans": [],
+        "description": "",
         "thumbnail": [
             "jelajahin/cover.webp",
             "jelajahin/app_1.webp",
@@ -279,140 +293,187 @@
         "images": [],
         "captions": [],
         "slug": "jelajahin",
-        "repository": "https://github.com",
+        "repository": "https://github.com/ibnu009/JelajahIn-Android",
         "website": [
-            {
-                "appstore": "https://appstore.com/",
-                "googleplay": "https://googleplay.com/"
-            }
         ],
         "category": "Mobile",
-        "tag": ["Flutter", "Android", "iOS"]
+        "tag": ["Flutter", "Go"]
     },
     {
         "id": 5,
-        "title": "Peduly",
-        "overview": "lorem",
+        "title": "Imma",
+        "overview": "IMMA (Integrated Material Monitoring Application) is a specialized platform developed for PT PJB to streamline warehouse material tracking. It ensures efficient monitoring of materials entering and leaving the warehouse, providing real-time updates for better inventory control.",
         "techstack": {
-            "Flutter": ["Flutter"],
-            "Backend": ["Nestjs", "Firebase"],
-            "Database": ["PostgreSQL", "Firebase", "Firestore"],
+            "Mobile": ["Android"],
+            "Backend": ["Laravel"],
+            "Database": ["MySQL"],
             "Other": [
-                "Tenserflow (for AI-powered recommendations)",
-                "Google Maps Api "
+                "QR Code Technology",
+                "Google Maps API (for location-based tracking)"
             ]
         },
         "key_features": [
-            "Intuitive and user-friendly shopping experience",
-            "Personalized product recommendations using AI",
-            "Eiger Adventure Club membership perks (discounts & free shipping)",
-            "Store locator with Google Maps integration",
-            "Secure payments and order tracking"
+            "Quickly scan materials for instant tracking and authentication.",
+            "Maintain accurate stock levels and movement history.",
+            "Generate comprehensive reports to enhance decision-making.",
+            "Prevent discrepancies with a tamper-proof record system."
         ],
         "challenges_solutions": [
-            "Performance Optimization: Reduced frame drops by implementing lazy loading for product images and optimizing API calls.",
-            "AI-Powered Recommendations: Integrated TensorFlow models to enhance product recommendations based on user behavior.",
-            "Scalability: Used NestJS and Firebase for a flexible and scalable backend architecture."
+            "QR Code Scanning Efficiency: Optimized QR scanning performance to ensure fast and accurate material tracking.",
+            "Real-Time Data Synchronization: Implemented efficient API handling and caching strategies to maintain real-time updates.",
+            "Scalability: Designed a robust Laravel backend to handle increasing data volume and warehouse expansions."
         ],
-
         "my_role": [
-            "Led the mobile development using Flutter, ensuring a smooth UI/UX experience.",
-            "Integrated AI-based product recommendations.",
-            "Collaborated with backend engineers to optimize API performance.",
-            "Ensured clean and maintainable code using best practices."
+            "Led the mobile development using Kotlin and Laravel, ensuring a smooth UI/UX experience.",
+            "Integrated QR code scanning for efficient warehouse material tracking.",
+            "Managed and guided a team of backend and mobile developers to streamline project execution.",
+            "Collaborated with backend developers to optimize API performance and scalability."
+        ],
+        "impact_metrics": [
+            {
+                "icon": "ic:baseline-trending-up",
+                "text": "Successfully streamlined warehouse operations, reducing material tracking time by 40%."
+            },
+            {
+                "icon": "mdi:chart-line",
+                "text": "Improved inventory accuracy by 35%, minimizing discrepancies in stock records."
+            }
+        ],
+        "future_plans": [],
+        "description": "",
+        "thumbnail": ["imma/cover.webp", "imma/app_1.webp", "imma/app_2.webp"],
+        "images": [],
+        "captions": [],
+        "slug": "imma",
+        "repository": "",
+        "website": [],
+        "category": "Mobile",
+        "tag": ["Android", "Kotlin", "Laravel"]
+    },
+    {
+        "id": 7,
+        "title": "Peduly",
+        "overview": "Peduly is a digital platform that simplifies fundraising, donations, and volunteer opportunities in one place. With Peduly, individuals and organizations can support social causes, contribute to fundraising campaigns, and find volunteer opportunities to make a real impact.",
+        "techstack": {
+            "Mobile": ["Flutter"],
+            "Backend": ["NodeJS"],
+            "Database": ["MongoDB"],
+            "Other": [
+                "Xendit API"
+            ]
+        },
+        "key_features": [
+            "Seamless fundraising and donation process with an intuitive interface",
+            "Create and manage fundraising campaigns for various social causes",
+            "Discover and join volunteer opportunities easily",
+            "Secure payments using Xendit API for a hassle-free donation experience",
+            "Mobile-first experience with a smooth and responsive Flutter app",
+            "Community engagement through campaign updates and social sharing"
+        ],
+        "challenges_solutions": [
+            "Secure Payment Processing: Integrated Xendit API to ensure fast, safe, and seamless donation transactions.",
+            "User Engagement: Developed a community-driven platform with campaign updates and social sharing features to boost participation.",
+            "Volunteer Management: Built a streamlined system for discovering, applying, and managing volunteer opportunities."
+        ],
+        "my_role": [
+            "Developed the Peduly mobile app using Flutter, ensuring a smooth and intuitive user experience.",
+            "Implemented core features such as fundraising campaign management, donation tracking, and volunteer opportunities.",
+            "Integrated secure payment processing with Xendit API for seamless transactions.",
+            "Followed best practices to ensure clean, maintainable, and scalable code."
         ],
 
         "impact_metrics": [
             {
+                "icon": "ic:baseline-group",
+                "text": "5,000+ volunteers actively contributing to social causes."
+            },
+            {
+                "icon": "mdi:charity",
+                "text": "12,000+ fundraising and volunteer initiatives."
+            },
+            {
                 "icon": "ic:baseline-trending-up",
-                "text": "100,000+ downloads on Google Play Store"
+                "text": "Peduly has expanded its volunteer activities to 10+ cities in Indonesia."
             },
             {
-                "icon": "ic:outline-star-rate",
-                "text": "4.8-star rating based on 5,000+ reviews"
-            },
-            {
-                "icon": "mdi:trophy",
-                "text": "Ranked Top 50 in the Shopping category"
+                "icon": "mdi:hand-heart",
+                "text": "Thousands of donations processed daily to support various charitable causes."
             }
         ],
         "future_plans": [
-            "Implement an augmented reality (AR) feature for virtual product try-ons",
-            "Improve AI recommendations using user engagement data",
-            "Expand the loyalty program with gamification features"
+            "Introduce a crowdfunding feature to allow individuals to raise funds for personal and community causes.",
+            "Expand partnerships with NGOs and corporations to increase social impact."
         ],
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, eum. Voluptatibus voluptas incidunt quod facilis inventore. Tempore, dolores dignissimos? Sit!",
+        "description": "One of the key features of Peduly is its seamless volunteering system. With just a few taps, users can browse various social initiatives and join movements that align with their passions. From coastal clean-ups to education programs, Peduly bridges the gap between willingness and action.\n\nTake, for example, a recent event where volunteers gathered on a beach to clean up waste. Armed with gloves, determination, and the Peduly spirit, they worked hand-in-hand to restore the beauty of nature. This initiative was just one of many opportunities facilitated by the app, proving that small efforts, when combined, create a massive impact.$!Beyond environmental efforts, Peduly also champions education and empowerment. Peduly volunteers recently gathered at YKI Cabang Koordinasi Jawa Timur for a heartwarming event: \"Pizza Creations: A Fun Way to Pass Time Before Iftar with Cancer Survivors.\" This event brought smiles, warmth, and delicious homemade pizzas to cancer survivors, proving that small acts of kindness can have a big impact.\n\nAs volunteers and participants crafted their pizzas together, laughter and joy filled the room. The event wasn’t just about food; it was about creating moments of happiness, fostering connections, and reminding survivors that they are not alone in their journey.$!",
         "thumbnail": [
             "peduly/cover.webp",
-            "peduly/app_1.webp",
-            "peduly/app_2.webp"
+            "peduly/app_1.webp"
         ],
-        "images": [],
-        "captions": [],
+        "images": [
+            "peduly/peduly_beach.webp",
+            "peduly/pizza.png"
+        ],
+        "captions": [
+            "Peduly Beach Cleanup Event",
+            "Peduly Empowerment Program"
+        ],
         "slug": "peduly",
         "repository": "https://github.com",
         "website": [
             {
-                "appstore": "",
-                "googleplay": ""
+                "googleplay": "https://play.google.com/store/apps/details?id=com.peduly"
             }
         ],
         "category": "Mobile",
-        "tag": ["Flutter", "Android", "iOS"]
+        "tag": ["Flutter", "Android"]
     },
     {
-        "id": 6,
+        "id": 8,
         "title": "Pesat",
-        "overview": "lorem",
+        "overview": "Pesat is a mobile application designed to help employees efficiently monitor parking areas, scan parking tickets, and record visitor data at tourist destinations. With Pesat, staff can easily track available parking spaces, validate tickets using a scanning system, and maintain an organized log of visitor entries. The app enhances operational efficiency, reduces manual errors, and ensures a smooth experience for both employees and visitors.",
         "techstack": {
-            "Flutter": ["Flutter"],
-            "Backend": ["Nestjs", "Firebase"],
-            "Database": ["PostgreSQL", "Firebase", "Firestore"],
+            "Mobile": ["Flutter"],
+            "Backend": ["Go Language"],
+            "Database": ["PostgreSQL"],
             "Other": [
-                "Tenserflow (for AI-powered recommendations)",
-                "Google Maps Api "
+                "Geocoding",
+                "Google Maps Api",
+                "QR Scanner",
+                "Push Notification",
+                "Bluetooth"
             ]
         },
         "key_features": [
-            "Intuitive and user-friendly shopping experience",
-            "Personalized product recommendations using AI",
-            "Eiger Adventure Club membership perks (discounts & free shipping)",
-            "Store locator with Google Maps integration",
-            "Secure payments and order tracking"
+            "User-friendly interface for employees",
+            "Quick and accurate parking ticket scanning",
+            "Secure and efficient data management",
+            "Seamless visitor data recording for improved tracking"
         ],
         "challenges_solutions": [
-            "Performance Optimization: Reduced frame drops by implementing lazy loading for product images and optimizing API calls.",
-            "AI-Powered Recommendations: Integrated TensorFlow models to enhance product recommendations based on user behavior.",
-            "Scalability: Used NestJS and Firebase for a flexible and scalable backend architecture."
+            "Performance Optimization: Improved app responsiveness by optimizing database queries and reducing redundant API calls.",
+            "User Experience: Designed an intuitive UI to make parking monitoring and visitor registration seamless for employees.",
+            "Efficient Ticket Scanning: Implemented barcode/QR code scanning technology for faster and more accurate ticket validation."
         ],
 
         "my_role": [
-            "Led the mobile development using Flutter, ensuring a smooth UI/UX experience.",
-            "Integrated AI-based product recommendations.",
-            "Collaborated with backend engineers to optimize API performance.",
-            "Ensured clean and maintainable code using best practices."
+            "Develop mobile app using Flutter, ensuring a seamless experience for employees.",
+            "Implemented a fast and reliable parking ticket scanning system using barcode/QR code technology.",
+            "Collaborated with backend engineers to optimize API performance for real-time data updates.",
+            "Ensured clean, maintainable, and scalable code by following best practices."
         ],
 
         "impact_metrics": [
             {
-                "icon": "ic:baseline-trending-up",
-                "text": "100,000+ downloads on Google Play Store"
-            },
-            {
-                "icon": "ic:outline-star-rate",
-                "text": "4.8-star rating based on 5,000+ reviews"
+                "icon": "mdi:bluetooth",
+                "text": "Enabled fast and reliable ticket printing via Bluetooth for seamless operations"
             },
             {
                 "icon": "mdi:trophy",
-                "text": "Ranked Top 50 in the Shopping category"
+                "text": "Improved parking efficiency and visitor tracking at multiple tourist locations"
             }
         ],
-        "future_plans": [
-            "Implement an augmented reality (AR) feature for virtual product try-ons",
-            "Improve AI recommendations using user engagement data",
-            "Expand the loyalty program with gamification features"
-        ],
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, eum. Voluptatibus voluptas incidunt quod facilis inventore. Tempore, dolores dignissimos? Sit!",
+        "future_plans": [],
+        "description": "",
         "thumbnail": [
             "pesat/cover.webp",
             "pesat/app_1.webp",
@@ -421,20 +482,62 @@
         "images": [],
         "captions": [],
         "slug": "pesat",
-        "repository": "https://github.com",
-        "website": [
-            {
-                "appstore": "",
-                "googleplay": ""
-            }
-        ],
+        "repository": "",
+        "website": [],
         "category": "Mobile",
-        "tag": ["Flutter", "Android", "iOS"]
+        "tag": ["Flutter", "Android", "Go"]
     },
     {
-        "id": 7,
-        "title": "Snapandcook",
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, eum. Voluptatibus voluptas incidunt quod facilis inventore. Tempore, dolores dignissimos? Sit!",
+        "id": 9,
+        "title": "SnapAndCook (Mobile)",
+        "overview": "SnapAndCook is a smart recipe recommendation app that uses machine learning to scan available ingredients and suggest the best recipes based on what you have. By leveraging advanced image recognition, SnapAndCook helps users minimize food waste, discover new meal ideas, and cook with ease. Whether you're an experienced chef or a beginner, this app transforms your ingredients into delicious meals effortlessly.",
+        "techstack": {
+            "Mobile": ["Flutter"],
+            "Backend": ["Go Language"],
+            "Database": ["MongoDB"],
+            "Other": [
+                "TensorFlow (for image recognition)",
+                "Simple Additive Weighting (SAW) Algorithm",
+                "Tutorial System"
+            ]
+        },
+        "key_features": [
+            "AI-powered ingredient scanning for accurate recognition",
+            "Personalized recipe recommendations based on available ingredients",
+            "Smart meal planning to reduce food waste",
+            "User-friendly interface with step-by-step cooking instructions"
+        ],
+        "challenges_solutions": [
+            "Ingredient Recognition Accuracy: Improved ML model performance to accurately detect a wide variety of ingredients, even in cluttered environments.",
+            "Recipe Recommendation Quality: Enhanced AI algorithm to provide more relevant and diverse recipe suggestions based on ingredient combinations.",
+            "App Performance: Optimized image processing and reduced ML inference time to ensure a smooth user experience.",
+            "User Experience: Designed a clean and intuitive UI for effortless ingredient scanning and recipe browsing."
+        ],
+
+        "my_role": [
+            "Developed the mobile app using Flutter, ensuring a smooth and intuitive user experience.",
+            "Integrated machine learning models for accurate ingredient recognition.",
+            "Implemented AI-based recipe recommendation system based on detected ingredients.",
+            "Optimized image processing and ML inference to improve app performance.",
+            "Maintained clean, scalable, and efficient code following best practices."
+        ],
+
+        "impact_metrics": [
+            {
+                "icon": "mdi:brain",
+                "text": "Achieved 90% ingredient recognition accuracy using YOLO"
+            },
+            {
+                "icon": "mdi:star",
+                "text": "Received positive user feedback for intuitive design and AI-powered suggestions"
+            },
+            {
+                "icon": "mdi:leaf",
+                "text": "Contributed to food waste reduction by suggesting meals based on available ingredients"
+            }
+        ],
+        "future_plans": [],
+        "description": "",
         "thumbnail": [
             "snapandcook/cover.webp",
             "snapandcook/app_1.webp",
@@ -443,69 +546,47 @@
         "images": [],
         "captions": [],
         "slug": "snapandcook",
-        "repository": "https://github.com",
-        "website": [
-            {
-                "appstore": "",
-                "googleplay": ""
-            }
-        ],
+        "repository": "https://github.com/ibnu009/snap_and_cook_mobile",
+        "website": [],
         "category": "Mobile",
-        "tag": ["Flutter", "Android", "iOS"]
+        "tag": ["Flutter", "Android", "Machine Learning"]
     },
     {
-        "id": 8,
+        "id": 10,
         "title": "Sumbangin aja",
-        "overview": "lorem",
+        "overview": "Sumbangin Aja is a mobile application that connects individuals and businesses with surplus food to those in need, helping to minimize waste and support local communities. The app provides an intuitive platform where users can easily list, donate, and share excess food while ensuring safety and hygiene through built-in guidelines.",
         "techstack": {
-            "Flutter": ["Flutter"],
-            "Backend": ["Nestjs", "Firebase"],
-            "Database": ["PostgreSQL", "Firebase", "Firestore"],
+            "Mobile": ["Android", "Kotlin", "Jetpack"],
+            "Backend": ["Laravel"],
+            "Database": ["PostgreSQL"],
             "Other": [
-                "Tenserflow (for AI-powered recommendations)",
-                "Google Maps Api "
+                "Google Maps Api"
             ]
         },
         "key_features": [
-            "Intuitive and user-friendly shopping experience",
-            "Personalized product recommendations using AI",
-            "Eiger Adventure Club membership perks (discounts & free shipping)",
-            "Store locator with Google Maps integration",
-            "Secure payments and order tracking"
+            "Community-driven platform to reduce food waste",
+            "Real-time location-based donations with Google Maps integration",
+            "Safety guidelines to ensure food quality and hygiene",
+            "Intuitive and user-friendly donation process"
         ],
         "challenges_solutions": [
-            "Performance Optimization: Reduced frame drops by implementing lazy loading for product images and optimizing API calls.",
-            "AI-Powered Recommendations: Integrated TensorFlow models to enhance product recommendations based on user behavior.",
-            "Scalability: Used NestJS and Firebase for a flexible and scalable backend architecture."
+            "User Engagement: Simplified the donation process with an intuitive UI/UX, making it easy for users to list and claim food donations.",
+            "Food Safety: Integrated safety guidelines and expiration date checks to ensure the quality and hygiene of donated food."
         ],
-
         "my_role": [
-            "Led the mobile development using Flutter, ensuring a smooth UI/UX experience.",
-            "Integrated AI-based product recommendations.",
-            "Collaborated with backend engineers to optimize API performance.",
-            "Ensured clean and maintainable code using best practices."
+            "Integrated Google Maps for real-time location-based donation tracking.",
+            "Collaborated with backend engineers to optimize data synchronization and API performance.",
+            "Ensured clean, maintainable, and scalable code using best practices in Modern Android Development."
         ],
 
         "impact_metrics": [
             {
-                "icon": "ic:baseline-trending-up",
-                "text": "100,000+ downloads on Google Play Store"
-            },
-            {
-                "icon": "ic:outline-star-rate",
-                "text": "4.8-star rating based on 5,000+ reviews"
-            },
-            {
                 "icon": "mdi:trophy",
-                "text": "Ranked Top 50 in the Shopping category"
+                "text": "Finalist in KMIPN 3 Hackathon"
             }
         ],
-        "future_plans": [
-            "Implement an augmented reality (AR) feature for virtual product try-ons",
-            "Improve AI recommendations using user engagement data",
-            "Expand the loyalty program with gamification features"
-        ],
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, eum. Voluptatibus voluptas incidunt quod facilis inventore. Tempore, dolores dignissimos? Sit!",
+        "future_plans": [],
+        "description": "",
         "thumbnail": [
             "sumbanginaja/cover.webp",
             "sumbanginaja/app_1.webp",
@@ -522,85 +603,68 @@
             }
         ],
         "category": "Mobile",
-        "tag": ["Flutter", "Android", "iOS"]
+        "tag": ["Android", "Kotlin"]
     },
     {
-        "id": 8,
-        "title": "Sumbangin aja",
-        "overview": "lorem",
+        "id": 11,
+        "title": "Glory Convention Lints",
+        "overview": "Glory Convention Lints is a powerful linter library designed to enforce the coding conventions and standards of our company. Built with maintainability, consistency, and best practices in mind, this library ensures that all projects adhere to a unified coding style, improving code quality and collaboration across teams.",
         "techstack": {
-            "Flutter": ["Flutter"],
-            "Backend": ["Nestjs", "Firebase"],
-            "Database": ["PostgreSQL", "Firebase", "Firestore"],
-            "Other": [
-                "Tenserflow (for AI-powered recommendations)",
-                "Google Maps Api "
-            ]
+            "Mobile": ["Flutter"]
         },
         "key_features": [
-            "Intuitive and user-friendly shopping experience",
-            "Personalized product recommendations using AI",
-            "Eiger Adventure Club membership perks (discounts & free shipping)",
-            "Store locator with Google Maps integration",
-            "Secure payments and order tracking"
+            "Enforces company-wide coding standards and best practices",
+            "Customizable lint rules tailored to development needs",
+            "Seamless integration with CI/CD pipelines for automated code checks",
+            "Improves code maintainability and readability"
         ],
         "challenges_solutions": [
-            "Performance Optimization: Reduced frame drops by implementing lazy loading for product images and optimizing API calls.",
-            "AI-Powered Recommendations: Integrated TensorFlow models to enhance product recommendations based on user behavior.",
-            "Scalability: Used NestJS and Firebase for a flexible and scalable backend architecture."
+            "Rule Customization: Implemented a flexible rule configuration system to allow teams to tailor linting to their specific needs.",
+            "Performance Optimization: Optimized linting speed by parallelizing rule checks and reducing unnecessary computations."
         ],
-
         "my_role": [
-            "Led the mobile development using Flutter, ensuring a smooth UI/UX experience.",
-            "Integrated AI-based product recommendations.",
-            "Collaborated with backend engineers to optimize API performance.",
-            "Ensured clean and maintainable code using best practices."
+            "Developed and researched a custom linter to enforce company-wide coding standards.",
+            "Designed and implemented custom lint rules tailored to development needs.",
+            "Optimized linting performance for faster and more efficient code analysis.",
+            "Collaborated with development teams to refine and enhance linting rules."
         ],
-
         "impact_metrics": [
             {
-                "icon": "ic:baseline-trending-up",
-                "text": "100,000+ downloads on Google Play Store"
+                "icon": "ic:outline-auto-fix-high",
+                "text": "Reduced manual code reviews by senior developers with automated linting"
             },
             {
-                "icon": "ic:outline-star-rate",
-                "text": "4.8-star rating based on 5,000+ reviews"
-            },
-            {
-                "icon": "mdi:trophy",
-                "text": "Ranked Top 50 in the Shopping category"
+                "icon": "mdi:chart-line",
+                "text": "Improved code quality and maintainability through consistent best practices"
             }
         ],
         "future_plans": [
-            "Implement an augmented reality (AR) feature for virtual product try-ons",
-            "Improve AI recommendations using user engagement data",
-            "Expand the loyalty program with gamification features"
+            "Expand rule coverage to enforce more best practices and security guidelines",
+            "Support additional programming languages and frameworks",
+            "Optimize linting performance for even faster analysis"
         ],
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, eum. Voluptatibus voluptas incidunt quod facilis inventore. Tempore, dolores dignissimos? Sit!",
+        "description": "",
         "thumbnail": [
-            "sumbanginaja/cover.webp",
-            "sumbanginaja/app_1.webp",
-            "sumbanginaja/app_2.webp"
+            "glory_linter/cover.webp"
         ],
         "images": [],
         "captions": [],
-        "slug": "sumbangin-aja",
+        "slug": "glory-convention-lints",
         "repository": "https://github.com",
         "website": [
             {
-                "appstore": "",
-                "googleplay": ""
+                "pub": "https://pub.dev/packages/glory_convention_lint"
             }
         ],
-        "category": "Backend",
-        "tag": ["NestJs", "Android", "iOS"]
+        "category": "Library",
+        "tag": ["Flutter", "Library", "Linter"]
     },
     {
-        "id": 8,
+        "id": 12,
         "title": "Sumbangin aja",
         "overview": "lorem",
         "techstack": {
-            "Flutter": ["Flutter"],
+            "Mobile": ["Flutter"],
             "Backend": ["Nestjs", "Firebase"],
             "Database": ["PostgreSQL", "Firebase", "Firestore"],
             "Other": [
