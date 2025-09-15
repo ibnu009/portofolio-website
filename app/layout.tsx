@@ -59,10 +59,6 @@ export default function RootLayout({
         <Footer
           sm={[
               {
-                  icon: "mdi:github",
-                  link: "https://github.com/ibnu009",
-              },
-              {
                   icon: "mdi:linkedin",
                   link: "https://www.linkedin.com/in/ibnu-batutah/",
               },

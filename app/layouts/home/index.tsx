@@ -53,7 +53,9 @@ const Home: React.FC<Homes> = ({
                   href={item.link}
                   target="_blank"
                 >
-                  <Icon icon={item.icon} />
+                  <Icon icon={item.icon}
+                  className="w-[1em] h-[1em]"
+                  />
                 </Link>
               </li>
             ))}

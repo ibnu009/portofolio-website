@@ -29,6 +29,22 @@ export default function page() {
             icon: "mdi:gmail",
             link: "mailto:ibnubatutah001@gmail.com",
           },
+          //Instagram
+          {
+            icon: "mdi:instagram",
+            link: "https://www.instagram.com/itsibnubatutah/",
+          },
+          //Youtube
+          {
+            icon: "mdi:youtube",
+            link: "https://www.youtube.com/@itsibnubatutah",
+          },
+          //Tiktok
+          {
+            icon: "simple-icons:tiktok",
+            link: "https://www.tiktok.com/@itsibnubatutah",
+          },
+          
         ]}
       />
       <About />
